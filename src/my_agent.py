@@ -61,13 +61,11 @@ Possible outcomes (assign a probability to each):
 
     data = json.loads(text)
 
-    # Build a lookup of outcome -> probability from the LLM response
     prob_map = {
         item["market"].strip().lower(): item["probability"]
         for item in data["probabilities"]
     }
 
-    # The YES outcome is always the first entry in the outcomes list
     yes_outcome = outcomes[0] if outcomes else None
     if yes_outcome:
         p_yes = prob_map.get(yes_outcome.strip().lower(), 0.5)
@@ -76,13 +74,11 @@ Possible outcomes (assign a probability to each):
 
     p_yes = max(0.01, min(0.99, float(p_yes)))
 
-    # Build rationale listing all outcomes and their probabilities
-    rationale = " | ".join(
+    return {
+    "market": yes_outcome,
+    "p_yes": p_yes,
+    "rationale": " | ".join(
         f"{item['market']}: {item['probability']}"
         for item in data["probabilities"]
     )
-
-    return {
-        "market": rationale, 
-        "p_yes": p_yes
-    }
+}
