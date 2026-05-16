@@ -1,0 +1,510 @@
+[
+    {
+        "probabilities": [
+            {
+                "market": "Albania",
+                "probability": 0.02
+            },
+            {
+                "market": "Armenia",
+                "probability": 0.02
+            },
+            {
+                "market": "Australia",
+                "probability": 0.02
+            },
+            {
+                "market": "Austria",
+                "probability": 0.02
+            },
+            {
+                "market": "Azerbaijan",
+                "probability": 0.02
+            },
+            {
+                "market": "Belgium",
+                "probability": 0.02
+            },
+            {
+                "market": "Bulgaria",
+                "probability": 0.02
+            },
+            {
+                "market": "Cyprus",
+                "probability": 0.02
+            },
+            {
+                "market": "Croatia",
+                "probability": 0.02
+            },
+            {
+                "market": "Czechia",
+                "probability": 0.02
+            },
+            {
+                "market": "Denmark",
+                "probability": 0.02
+            },
+            {
+                "market": "Estonia",
+                "probability": 0.02
+            },
+            {
+                "market": "Finland",
+                "probability": 0.02
+            },
+            {
+                "market": "France",
+                "probability": 0.02
+            },
+            {
+                "market": "Georgia",
+                "probability": 0.02
+            },
+            {
+                "market": "Germany",
+                "probability": 0.02
+            },
+            {
+                "market": "Greece",
+                "probability": 0.02
+            },
+            {
+                "market": "Israel",
+                "probability": 0.02
+            },
+            {
+                "market": "Italy",
+                "probability": 0.02
+            },
+            {
+                "market": "Latvia",
+                "probability": 0.02
+            },
+            {
+                "market": "Lithuania",
+                "probability": 0.02
+            },
+            {
+                "market": "Luxembourg",
+                "probability": 0.02
+            },
+            {
+                "market": "Malta",
+                "probability": 0.02
+            },
+            {
+                "market": "Moldova",
+                "probability": 0.02
+            },
+            {
+                "market": "Montenegro",
+                "probability": 0.02
+            },
+            {
+                "market": "Norway",
+                "probability": 0.02
+            },
+            {
+                "market": "Poland",
+                "probability": 0.02
+            },
+            {
+                "market": "Portugal",
+                "probability": 0.02
+            },
+            {
+                "market": "Romania",
+                "probability": 0.02
+            },
+            {
+                "market": "San Marino",
+                "probability": 0.02
+            },
+            {
+                "market": "Serbia",
+                "probability": 0.02
+            },
+            {
+                "market": "Sweden",
+                "probability": 0.02
+            },
+            {
+                "market": "Switzerland",
+                "probability": 0.02
+            },
+            {
+                "market": "Ukraine",
+                "probability": 0.02
+            },
+            {
+                "market": "United Kingdom",
+                "probability": 0.02
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Ella Langley",
+                "probability": 0.16
+            },
+            {
+                "market": "Kelsea Ballerini",
+                "probability": 0.16
+            },
+            {
+                "market": "Lainey Wilson",
+                "probability": 0.16
+            },
+            {
+                "market": "Megan Moroney",
+                "probability": 0.16
+            },
+            {
+                "market": "Miranda Lambert",
+                "probability": 0.16
+            },
+            {
+                "market": "Tie",
+                "probability": 0.16
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "At least 6 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 9 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 12 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 15 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 18 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 21 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 25 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 30 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 35 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 40 million",
+                "probability": 0.09
+            },
+            {
+                "market": "At least 50 million",
+                "probability": 0.09
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "The Apothecary Diaries ",
+                "probability": 0.14
+            },
+            {
+                "market": "Chainsaw Man \u2013 The Movie: Reze Arc",
+                "probability": 0.14
+            },
+            {
+                "market": "DAN DA DAN Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+                "probability": 0.14
+            },
+            {
+                "market": "Gachiakuta",
+                "probability": 0.14
+            },
+            {
+                "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+                "probability": 0.14
+            },
+            {
+                "market": "Tie",
+                "probability": 0.14
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "DAN DA DAN Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "Gachiakuta",
+                "probability": 0.14
+            },
+            {
+                "market": "Kaiju No. 8 Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "My Hero Academia FINAL SEASON",
+                "probability": 0.14
+            },
+            {
+                "market": "ONE PIECE",
+                "probability": 0.14
+            },
+            {
+                "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+                "probability": 0.14
+            },
+            {
+                "market": "Tie",
+                "probability": 0.14
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Blue Box",
+                "probability": 0.14
+            },
+            {
+                "market": "DAN DA DAN Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "The Fragrant Flower Blooms With Dignity",
+                "probability": 0.14
+            },
+            {
+                "market": "Honey Lemon Soda",
+                "probability": 0.14
+            },
+            {
+                "market": "My Dress-Up Darling Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "Ranma1/2 Season2",
+                "probability": 0.14
+            },
+            {
+                "market": "Tie",
+                "probability": 0.14
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "DAN DA DAN Season 2",
+                "probability": 0.14
+            },
+            {
+                "market": "Gachiakuta",
+                "probability": 0.14
+            },
+            {
+                "market": "My Hero Academia FINAL SEASON",
+                "probability": 0.14
+            },
+            {
+                "market": "ONE PIECE",
+                "probability": 0.14
+            },
+            {
+                "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+                "probability": 0.14
+            },
+            {
+                "market": "Takopi's Original Sin",
+                "probability": 0.14
+            },
+            {
+                "market": "Tie",
+                "probability": 0.14
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Clevatess",
+                "probability": 0.14
+            },
+            {
+                "market": "The Fragrant Flower Blooms With Dignity",
+                "probability": 0.14
+            },
+            {
+                "market": "Gachiakuta",
+                "probability": 0.14
+            },
+            {
+                "market": "SAKAMOTO DAYS",
+                "probability": 0.14
+            },
+            {
+                "market": "The Summer Hikaru Died",
+                "probability": 0.14
+            },
+            {
+                "market": "Takopi's Original Sin",
+                "probability": 0.14
+            },
+            {
+                "market": "Tie",
+                "probability": 0.14
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "By May 26, 2026",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Before Jan 1, 2026",
+                "probability": 0.2
+            },
+            {
+                "market": "Before Feb 1, 2026",
+                "probability": 0.2
+            },
+            {
+                "market": "Before Mar 1, 2026",
+                "probability": 0.2
+            },
+            {
+                "market": "Before Apr 1, 2026",
+                "probability": 0.2
+            },
+            {
+                "market": "Before May 1, 2026",
+                "probability": 0.2
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Before February",
+                "probability": 0.25
+            },
+            {
+                "market": "Before March",
+                "probability": 0.25
+            },
+            {
+                "market": "Before April",
+                "probability": 0.25
+            },
+            {
+                "market": "Before May",
+                "probability": 0.25
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Ryan Gosling",
+                "probability": 0.16
+            },
+            {
+                "market": "Seth Meyers",
+                "probability": 0.16
+            },
+            {
+                "market": "Donald Trump",
+                "probability": 0.16
+            },
+            {
+                "market": "Pedro Pascal",
+                "probability": 0.16
+            },
+            {
+                "market": "Travis Kelce",
+                "probability": 0.16
+            },
+            {
+                "market": "Zendaya",
+                "probability": 0.16
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Beef",
+                "probability": 0.09
+            },
+            {
+                "market": "The Beast in Me",
+                "probability": 0.09
+            },
+            {
+                "market": "Love Story",
+                "probability": 0.09
+            },
+            {
+                "market": "All Her Fault",
+                "probability": 0.09
+            },
+            {
+                "market": "Half Man",
+                "probability": 0.09
+            },
+            {
+                "market": "Black Rabbit",
+                "probability": 0.09
+            },
+            {
+                "market": "Death by Lightning",
+                "probability": 0.09
+            },
+            {
+                "market": "Lord of the Flies",
+                "probability": 0.09
+            },
+            {
+                "market": "DTF St. Louis",
+                "probability": 0.09
+            },
+            {
+                "market": "Bait",
+                "probability": 0.09
+            },
+            {
+                "market": "Tie",
+                "probability": 0.09
+            }
+        ]
+    }
+]

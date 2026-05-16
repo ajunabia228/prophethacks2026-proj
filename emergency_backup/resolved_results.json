@@ -1,0 +1,994 @@
+[
+    {
+        "probabilities": [
+            {
+                "market": "Kaja Najzer",
+                "probability": 0.0
+            },
+            {
+                "market": "Anna Lena Ebster",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Francisco Rocha",
+                "probability": 0.0
+            },
+            {
+                "market": "Garrett Johns",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Brandon Perez",
+                "probability": 0.0
+            },
+            {
+                "market": "Younes Lalami Laaroussi",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Florent Bax",
+                "probability": 1.0
+            },
+            {
+                "market": "Adrian Arcon",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Heather Watson",
+                "probability": 1.0
+            },
+            {
+                "market": "Kyoka Okamura",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Bangladesh",
+                "probability": 1.0
+            },
+            {
+                "market": "Pakistan",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Glamorgan",
+                "probability": 1.0
+            },
+            {
+                "market": "Somerset",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Sussex",
+                "probability": 1.0
+            },
+            {
+                "market": "Leicestershire",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Worcestershire",
+                "probability": 0.0
+            },
+            {
+                "market": "Durham",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "PSG",
+                "probability": 1.0
+            },
+            {
+                "market": "Lille",
+                "probability": 0.0
+            },
+            {
+                "market": "Monaco",
+                "probability": 0.0
+            },
+            {
+                "market": "Lyon",
+                "probability": 0.0
+            },
+            {
+                "market": "Strasbourg Alsace",
+                "probability": 0.0
+            },
+            {
+                "market": "Stade Rennes",
+                "probability": 0.0
+            },
+            {
+                "market": "Marseille",
+                "probability": 0.0
+            },
+            {
+                "market": "Lens",
+                "probability": 0.0
+            },
+            {
+                "market": "Nice",
+                "probability": 0.0
+            },
+            {
+                "market": "Toulouse",
+                "probability": 0.0
+            },
+            {
+                "market": "Paris",
+                "probability": 0.0
+            },
+            {
+                "market": "Angers",
+                "probability": 0.0
+            },
+            {
+                "market": "Le Havre",
+                "probability": 0.0
+            },
+            {
+                "market": "Nantes",
+                "probability": 0.0
+            },
+            {
+                "market": "Auxerre",
+                "probability": 0.0
+            },
+            {
+                "market": "Lorient",
+                "probability": 0.0
+            },
+            {
+                "market": "Stade Brest 29",
+                "probability": 0.0
+            },
+            {
+                "market": "Metz",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Real Madrid",
+                "probability": 0.0
+            },
+            {
+                "market": "Barcelona",
+                "probability": 1.0
+            },
+            {
+                "market": "Atletico Madrid",
+                "probability": 0.0
+            },
+            {
+                "market": "Villarreal",
+                "probability": 0.0
+            },
+            {
+                "market": "Athletic Bilbao",
+                "probability": 0.0
+            },
+            {
+                "market": "Betis",
+                "probability": 0.0
+            },
+            {
+                "market": "Real Sociedad",
+                "probability": 0.0
+            },
+            {
+                "market": "Girona",
+                "probability": 0.0
+            },
+            {
+                "market": "Celta Vigo",
+                "probability": 0.0
+            },
+            {
+                "market": "Valencia",
+                "probability": 0.0
+            },
+            {
+                "market": "Sevilla",
+                "probability": 0.0
+            },
+            {
+                "market": "Getafe",
+                "probability": 0.0
+            },
+            {
+                "market": "Espanyol",
+                "probability": 0.0
+            },
+            {
+                "market": "Osasuna",
+                "probability": 0.0
+            },
+            {
+                "market": "Alaves",
+                "probability": 0.0
+            },
+            {
+                "market": "Mallorca",
+                "probability": 0.0
+            },
+            {
+                "market": "Levante",
+                "probability": 0.0
+            },
+            {
+                "market": "Rayo Vallecano",
+                "probability": 0.0
+            },
+            {
+                "market": "Elche",
+                "probability": 0.0
+            },
+            {
+                "market": "Oviedo",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "SC Braga",
+                "probability": 0.0
+            },
+            {
+                "market": "Sporting Lisbon",
+                "probability": 0.0
+            },
+            {
+                "market": "FC Porto",
+                "probability": 1.0
+            },
+            {
+                "market": "SL Benfica",
+                "probability": 0.0
+            },
+            {
+                "market": "Vitoria SC Guimaraes",
+                "probability": 0.0
+            },
+            {
+                "market": "Santa Clara Azores",
+                "probability": 0.0
+            },
+            {
+                "market": "Nacional da Madeira",
+                "probability": 0.0
+            },
+            {
+                "market": "Moreirense FC",
+                "probability": 0.0
+            },
+            {
+                "market": "Rio Ave FC",
+                "probability": 0.0
+            },
+            {
+                "market": "FC Arouca",
+                "probability": 0.0
+            },
+            {
+                "market": "Estoril Praia",
+                "probability": 0.0
+            },
+            {
+                "market": "Casa Pia Lisbon",
+                "probability": 0.0
+            },
+            {
+                "market": "CD Tondela",
+                "probability": 0.0
+            },
+            {
+                "market": "FC Famalicao",
+                "probability": 0.0
+            },
+            {
+                "market": "Estrela Amadora",
+                "probability": 0.0
+            },
+            {
+                "market": "AVS Futebol SAD",
+                "probability": 0.0
+            },
+            {
+                "market": "Gil Vicente Barcelos",
+                "probability": 0.0
+            },
+            {
+                "market": "FC Alverca SAD",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Napoli",
+                "probability": 0.0
+            },
+            {
+                "market": "Juventus",
+                "probability": 0.0
+            },
+            {
+                "market": "Cremonese",
+                "probability": 0.0
+            },
+            {
+                "market": "Udinese",
+                "probability": 0.0
+            },
+            {
+                "market": "Milan",
+                "probability": 0.0
+            },
+            {
+                "market": "Roma",
+                "probability": 0.0
+            },
+            {
+                "market": "Atalanta",
+                "probability": 0.0
+            },
+            {
+                "market": "Cagliari",
+                "probability": 0.0
+            },
+            {
+                "market": "Como",
+                "probability": 0.0
+            },
+            {
+                "market": "Torino",
+                "probability": 0.0
+            },
+            {
+                "market": "Inter",
+                "probability": 1.0
+            },
+            {
+                "market": "Lazio",
+                "probability": 0.0
+            },
+            {
+                "market": "Bologna",
+                "probability": 0.0
+            },
+            {
+                "market": "Sassuolo",
+                "probability": 0.0
+            },
+            {
+                "market": "Genoa",
+                "probability": 0.0
+            },
+            {
+                "market": "Fiorentina",
+                "probability": 0.0
+            },
+            {
+                "market": "Hellas Verona",
+                "probability": 0.0
+            },
+            {
+                "market": "Pisa",
+                "probability": 0.0
+            },
+            {
+                "market": "Parma Calcio",
+                "probability": 0.0
+            },
+            {
+                "market": "Lecce",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Breda",
+                "probability": 1.0
+            },
+            {
+                "market": "Heerenveen",
+                "probability": 0.0
+            },
+            {
+                "market": "Tie",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Oklahoma City",
+                "probability": 1.0
+            },
+            {
+                "market": "Los Angeles L",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Ivan Demidov",
+                "probability": 0.0
+            },
+            {
+                "market": "Matthew Schaefer",
+                "probability": 1.0
+            },
+            {
+                "market": "Michael Misa",
+                "probability": 0.0
+            },
+            {
+                "market": "Zeev Buium",
+                "probability": 0.0
+            },
+            {
+                "market": "Isaac Howard",
+                "probability": 0.0
+            },
+            {
+                "market": "Jimmy Snuggerud",
+                "probability": 0.0
+            },
+            {
+                "market": "Alexander Nikishin",
+                "probability": 0.0
+            },
+            {
+                "market": "Zayne Parekh",
+                "probability": 0.0
+            },
+            {
+                "market": "Maxim Shabanov",
+                "probability": 0.0
+            },
+            {
+                "market": "Ryan Leonard",
+                "probability": 0.0
+            },
+            {
+                "market": "Yaroslav Askarov",
+                "probability": 0.0
+            },
+            {
+                "market": "Gabe Perreault",
+                "probability": 0.0
+            },
+            {
+                "market": "Matthew Savoie",
+                "probability": 0.0
+            },
+            {
+                "market": "Axel Sandin-Pellikka",
+                "probability": 0.0
+            },
+            {
+                "market": "Bradly Nadeau",
+                "probability": 0.0
+            },
+            {
+                "market": "Jesper Wallstedt",
+                "probability": 0.0
+            },
+            {
+                "market": "Rutger McGroarty",
+                "probability": 0.0
+            },
+            {
+                "market": "Sam Dickinson",
+                "probability": 0.0
+            },
+            {
+                "market": "Sam Rinzel",
+                "probability": 0.0
+            },
+            {
+                "market": "Ville Koivunen",
+                "probability": 0.0
+            },
+            {
+                "market": "Artyom Levshunov",
+                "probability": 0.0
+            },
+            {
+                "market": "Easton Cowan",
+                "probability": 0.0
+            },
+            {
+                "market": "Arseni Gritsyuk",
+                "probability": 0.0
+            },
+            {
+                "market": "Beckett Sennecke",
+                "probability": 0.0
+            },
+            {
+                "market": "Calum Ritchie",
+                "probability": 0.0
+            },
+            {
+                "market": "Jonathan Lekkerimaki",
+                "probability": 0.0
+            },
+            {
+                "market": "Berkly Catton",
+                "probability": 0.0
+            },
+            {
+                "market": "Danila Yurov",
+                "probability": 0.0
+            },
+            {
+                "market": "Leevi Merilaninen",
+                "probability": 0.0
+            },
+            {
+                "market": "Alex Bump",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Kevin Hart",
+                "probability": 1.0
+            },
+            {
+                "market": "Elon Musk",
+                "probability": 0.0
+            },
+            {
+                "market": "Taylor Swift",
+                "probability": 0.0
+            },
+            {
+                "market": "Drake",
+                "probability": 0.0
+            },
+            {
+                "market": "Joe Rogan",
+                "probability": 0.0
+            },
+            {
+                "market": "Logan Paul",
+                "probability": 0.0
+            },
+            {
+                "market": "MrBeast",
+                "probability": 0.0
+            },
+            {
+                "market": "Theo Von",
+                "probability": 0.0
+            },
+            {
+                "market": "Shane Gillis",
+                "probability": 0.0
+            },
+            {
+                "market": "Andrew Schulz",
+                "probability": 0.0
+            },
+            {
+                "market": "Jake Paul",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Adam Greenberg",
+                "probability": 0.0
+            },
+            {
+                "market": "Adam Sobel",
+                "probability": 0.0
+            },
+            {
+                "market": "Britt Rescigno",
+                "probability": 0.0
+            },
+            {
+                "market": "Bryan Voltaggio",
+                "probability": 1.0
+            },
+            {
+                "market": "Carlos Anthony",
+                "probability": 0.0
+            },
+            {
+                "market": "Claudette Zepeda",
+                "probability": 0.0
+            },
+            {
+                "market": "Dale Talde",
+                "probability": 0.0
+            },
+            {
+                "market": "David Viana",
+                "probability": 0.0
+            },
+            {
+                "market": "Jet Tila",
+                "probability": 0.0
+            },
+            {
+                "market": "Joe Sasto",
+                "probability": 0.0
+            },
+            {
+                "market": "Jonathon Sawyer",
+                "probability": 0.0
+            },
+            {
+                "market": "Kaleena Bliss",
+                "probability": 0.0
+            },
+            {
+                "market": "Karen Akunowicz",
+                "probability": 0.0
+            },
+            {
+                "market": "Kevin Lee",
+                "probability": 0.0
+            },
+            {
+                "market": "Lee Anne Wong",
+                "probability": 0.0
+            },
+            {
+                "market": "Marcel Vigneron",
+                "probability": 0.0
+            },
+            {
+                "market": "Nini Nguyen",
+                "probability": 0.0
+            },
+            {
+                "market": "Sara Bradley",
+                "probability": 0.0
+            },
+            {
+                "market": "Shirley Chung",
+                "probability": 0.0
+            },
+            {
+                "market": "Tobias Dorzon",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Rizo Velovic",
+                "probability": 0.0
+            },
+            {
+                "market": "Aubry Bracco",
+                "probability": 0.0
+            },
+            {
+                "market": "Ozzy Lusth",
+                "probability": 0.0
+            },
+            {
+                "market": "Chrissy Hofbeck",
+                "probability": 0.0
+            },
+            {
+                "market": "Christian Hubicki",
+                "probability": 0.0
+            },
+            {
+                "market": "Cirie Fields",
+                "probability": 0.0
+            },
+            {
+                "market": "Benjamin \u201cCoach\u201d Wade",
+                "probability": 0.0
+            },
+            {
+                "market": "Rick Devens",
+                "probability": 0.0
+            },
+            {
+                "market": "Dee Valladares",
+                "probability": 1.0
+            },
+            {
+                "market": "Emily Flippen",
+                "probability": 0.0
+            },
+            {
+                "market": "Tiffany Nicole Ervin",
+                "probability": 0.0
+            },
+            {
+                "market": "Stephenie LaGrossa Kendrick",
+                "probability": 0.0
+            },
+            {
+                "market": "Joe Hunter",
+                "probability": 0.0
+            },
+            {
+                "market": "Jonathan Young",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "14 Karat Carrot",
+                "probability": 0.0
+            },
+            {
+                "market": "Calla Lily",
+                "probability": 0.0
+            },
+            {
+                "market": "Cat Witch",
+                "probability": 0.0
+            },
+            {
+                "market": "Crane",
+                "probability": 0.0
+            },
+            {
+                "market": "The Croissants",
+                "probability": 0.0
+            },
+            {
+                "market": "Eggplant",
+                "probability": 0.0
+            },
+            {
+                "market": "Galaxy Girl",
+                "probability": 1.0
+            },
+            {
+                "market": "Googly Eyes",
+                "probability": 0.0
+            },
+            {
+                "market": "Handyman",
+                "probability": 0.0
+            },
+            {
+                "market": "High Voltage",
+                "probability": 0.0
+            },
+            {
+                "market": "Le Who Who",
+                "probability": 0.0
+            },
+            {
+                "market": "Owl",
+                "probability": 0.0
+            },
+            {
+                "market": "Pangolin",
+                "probability": 0.0
+            },
+            {
+                "market": "Pugcasso",
+                "probability": 0.0
+            },
+            {
+                "market": "Queen Corgi",
+                "probability": 0.0
+            },
+            {
+                "market": "Scarab",
+                "probability": 0.0
+            },
+            {
+                "market": "Snow Cone",
+                "probability": 0.0
+            },
+            {
+                "market": "Stingray",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Brit Aguirre",
+                "probability": 0.0
+            },
+            {
+                "market": "Vince George",
+                "probability": 1.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "P\u00e9ter Magyar",
+                "probability": 1.0
+            },
+            {
+                "market": "Viktor Orb\u00e1n",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Don Leonard",
+                "probability": 1.0
+            },
+            {
+                "market": "Adam Miller",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Government Alliance",
+                "probability": 1.0
+            },
+            {
+                "market": "Opposition",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "0",
+                "probability": 0.0
+            },
+            {
+                "market": "1",
+                "probability": 0.0
+            },
+            {
+                "market": "2",
+                "probability": 0.0
+            },
+            {
+                "market": "3",
+                "probability": 1.0
+            },
+            {
+                "market": "4",
+                "probability": 0.0
+            },
+            {
+                "market": "5",
+                "probability": 0.0
+            },
+            {
+                "market": "6",
+                "probability": 0.0
+            },
+            {
+                "market": "7",
+                "probability": 0.0
+            },
+            {
+                "market": "8",
+                "probability": 0.0
+            },
+            {
+                "market": "9",
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "49 or below",
+                "probability": 0.0
+            },
+            {
+                "market": "50",
+                "probability": 0.0
+            },
+            {
+                "market": "51",
+                "probability": 0.0
+            },
+            {
+                "market": "52",
+                "probability": 0.0
+            },
+            {
+                "market": "53",
+                "probability": 0.0
+            },
+            {
+                "market": "54",
+                "probability": 1.0
+            },
+            {
+                "market": "55",
+                "probability": 0.0
+            },
+            {
+                "market": "56",
+                "probability": 0.0
+            },
+            {
+                "market": "57",
+                "probability": 0.0
+            },
+            {
+                "market": "58",
+                "probability": 0.0
+            },
+            {
+                "market": "59",
+                "probability": 0.0
+            },
+            {
+                "market": "60 or above",
+                "probability": 0.0
+            }
+        ]
+    }
+]
