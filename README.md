@@ -37,7 +37,7 @@ python -m venv .venv
 ### 3. Install dependencies 🤖
 
 ```powershell
-pip install ai-prophet-core ai-prophet anthropic fastapi uvicorn openai
+pip install ai-prophet-core ai-prophet openai
 ```
 
 ### 4. Set environment variables 🔡
@@ -69,20 +69,6 @@ prophet forecast retrieve -o data/events.json
 
 ```powershell
 prophet forecast predict --events data/events.json --local my_agent -o data/predictions.json
-```
-
-### Generate a clean summary of predictions
-
-```powershell
-python -c "import my_agent; my_agent.summarize_predictions()"
-```
-
-This writes `data/summary.json` with just the market name and `p_yes` for each prediction.
-
-### Evaluate predictions against actuals
-
-```powershell
-prophet forecast evaluate --submission data/predictions.json --actuals data/actuals.json
 ```
 
 ## How It Works 🕵🏻
