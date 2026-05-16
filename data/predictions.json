@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-05-16T21:15:08.078389Z",
+  "predictions": [
+    {
+      "market_ticker": "KXNBASERIES-26MINSASR2",
+      "p_yes": 0.68,
+      "rationale": "San Antonio: 0.68 | Minnesota: 0.32"
+    },
+    {
+      "market_ticker": "KXBUNDESLIGATOP4-26",
+      "p_yes": 0.86,
+      "rationale": "Bayern Munich: 0.86 | Dortmund: 0.58 | FC Cologne: 0.04 | St. Pauli: 0.02 | Frankfurt: 0.06 | Hoffenheim: 0.1 | Leipzig: 0.45 | Wolfsburg: 0.25 | Bremen: 0.02 | Leverkusen: 0.5 | Augsburg: 0.05 | Stuttgart: 0.15 | Freiburg: 0.2 | Union Berlin: 0.08 | Mainz: 0.07 | M´gladbach: 0.07 | Hamburg: 0.03 | Heidenheim: 0.03"
+    },
+    {
+      "market_ticker": "KXFACUP-26",
+      "p_yes": 0.22,
+      "rationale": "Liverpool: 0.22 | Manchester City: 0.18 | Arsenal: 0.15 | Chelsea: 0.1 | Newcastle: 0.07 | Tottenham: 0.07 | Manchester United: 0.06 | Aston Villa: 0.04 | Nottingham: 0.03 | Brighton: 0.03 | Bournemouth: 0.02 | Fulham: 0.02 | Everton: 0.03 | Crystal Palace: 0.02 | West Ham: 0.02 | Brentford: 0.02 | Wolverhampton: 0.02 | Leeds United: 0.02 | Sunderland: 0.01 | Burnley: 0.01 | Southampton: 0.01 | Leicester: 0.02 | Ipswich: 0.01"
+    },
+    {
+      "market_ticker": "KXPREMIERLEAGUE-26",
+      "p_yes": 0.15,
+      "rationale": "Liverpool: 0.15 | Arsenal: 0.18 | Man City: 0.22 | Chelsea: 0.08 | Newcastle: 0.1 | Man Utd: 0.07 | Tottenham: 0.05 | Aston Villa: 0.03 | Nottingham Forest: 0.005 | Brighton: 0.03 | Bournemouth: 0.01 | Everton: 0.01 | Crystal Palace: 0.007 | West Ham: 0.008 | Leeds: 0.015 | Fulham: 0.02 | Brentford: 0.02 | Wolves: 0.015 | Burnley: 0.005 | Sunderland: 0.002"
+    },
+    {
+      "market_ticker": "KXEUROLEAGUE-26",
+      "p_yes": 0.08,
+      "rationale": "Valencia Basket: 0.08 | AS Monaco: 0.09 | KK Crvena zvezda Belgrade: 0.05 | Panathinaikos BC: 0.05 | FC Barcelona: 0.18 | BC Olympiakos Piraeus: 0.12 | Fenerbahce Istanbul: 0.1 | Hapoel Tel-Aviv: 0.03 | Real Madrid: 0.2 | BC Zalgiris Kaunas: 0.03"
+    },
+    {
+      "market_ticker": "KXPREMDARTS-26",
+      "p_yes": 0.08,
+      "rationale": "Luke Littler: 0.08 | Luke Humphries: 0.12 | Michael van Gerwen: 0.18 | Gian van Veen: 0.04 | Stephen Bunting: 0.05 | Gerwyn Price: 0.15 | Josh Rock: 0.1 | Jonny Clayton: 0.07"
+    },
+    {
+      "market_ticker": "KXNBAEAST-26",
+      "p_yes": 0.04,
+      "rationale": "Detroit: 0.04 | Atlanta: 0.02 | Boston: 0.3 | Brooklyn: 0.05 | Charlotte: 0.01 | Chicago: 0.02 | Cleveland: 0.02 | Indiana: 0.07 | Miami: 0.15 | Milwaukee: 0.2 | New York: 0.03 | Orlando: 0.01 | Philadelphia: 0.03 | Toronto: 0.1 | Washington: 0.02"
+    },
+    {
+      "market_ticker": "KXNBAWEST-26",
+      "p_yes": 0.12,
+      "rationale": "Dallas: 0.12 | Denver: 0.18 | Houston: 0.07 | Los Angeles L: 0.2 | Los Angeles C: 0.15 | Memphis: 0.04 | Minnesota: 0.03 | New Orleans: 0.02 | Oklahoma City: 0.06 | Phoenix: 0.12 | Portland: 0.02 | Sacramento: 0.01 | Utah: 0.04 | San Antonio: 0.03 | Golden State: 0.17"
+    },
+    {
+      "market_ticker": "KXNBA-26",
+      "p_yes": 0.06,
+      "rationale": "Atlanta: 0.06 | Boston: 0.07 | Brooklyn: 0.04 | Charlotte: 0.02 | Chicago: 0.03 | Cleveland: 0.02 | Dallas: 0.03 | Denver: 0.08 | Detroit: 0.02 | Golden State: 0.07 | Houston: 0.04 | Indiana: 0.03 | Los Angeles C: 0.06 | Los Angeles L: 0.07 | Memphis: 0.02 | Miami: 0.04 | Milwaukee: 0.07 | Minnesota: 0.04 | New Orleans: 0.02 | New York: 0.03 | Oklahoma City: 0.03 | Orlando: 0.02 | Philadelphia: 0.05 | Phoenix: 0.05 | Portland: 0.02 | Sacramento: 0.02 | San Antonio: 0.02 | Toronto: 0.03 | Utah: 0.03 | Washington: 0.03"
+    },
+    {
+      "market_ticker": "KXNHLHART-26",
+      "p_yes": 0.27,
+      "rationale": "Connor McDavid: 0.27 | Nathan MacKinnon: 0.12 | Kirill Kaprizov: 0.08 | Leon Draisaitl: 0.1 | Nikita Kucherov: 0.11 | Auston Matthews: 0.09 | David Pastrnak: 0.07 | Jack Eichel: 0.06 | Connor Hellebuyck: 0.03 | Jack Hughes: 0.03 | Cale Makar: 0.05 | Mitch Marner: 0.04 | Quinn Hughes: 0.02 | Mikko Rantanen: 0.04 | Artemi Panarin: 0.04 | Igor Shesterkin: 0.02 | Kyle Connor: 0.05 | Matthew Tkachuk: 0.06 | William Nylander: 0.02 | Andrei Vasilevskiy: 0.02 | Brady Tkachuk: 0.02 | Connor Bedard: 0.06 | Dustin Wolf: 0.01 | Macklin Celebrini: 0.01 | Nick Suzuki: 0.03 | Adam Fox: 0.03 | Adrian Kempe: 0.02 | Alex Debrincat: 0.01 | Alex Ovechkin: 0.02 | Alexander Nikishin: 0.01"
+    }
+  ]
+}
