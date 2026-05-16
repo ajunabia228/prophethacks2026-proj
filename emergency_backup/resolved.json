@@ -1,0 +1,718 @@
+[
+  {
+    "event_ticker": "KXITFWMATCH-26MAY12NAJEBS",
+    "market_ticker": "KXITFWMATCH-26MAY12NAJEBS",
+    "title": "Who won the Najzer vs Ebster tennis match in the 2026 W15 Klagenfurt Round of 32?",
+    "subtitle": null,
+    "description": "If Kaja Najzer wins the Najzer vs Ebster professional tennis match in the 2026 W15 Klagenfurt Round of 32 after a ball has been played, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Kaja Najzer wins the Najzer vs Ebster professional tennis match in the 2026 W15 Klagenfurt Round of 32 after a ball has been played, then the market resolves to Yes.",
+    "close_time": "2026-05-13T09:58:49Z",
+    "outcomes": [
+      "Kaja Najzer",
+      "Anna Lena Ebster"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Anna Lena Ebster"
+      ],
+      "resolved_at": "2026-05-13T17:02:27.064637+00:00",
+      "source": "KXITFWMATCH-26MAY12NAJEBS"
+    }
+  },
+  {
+    "event_ticker": "KXATPCHALLENGERMATCH-26MAY10ROCJOH",
+    "market_ticker": "KXATPCHALLENGERMATCH-26MAY10ROCJOH",
+    "title": "Who won the Rocha vs Johns ATP Challenger tennis match on May 10, 2026?",
+    "subtitle": null,
+    "description": "If Francisco Rocha wins the Rocha vs Johns professional tennis match in the 2026 ATP Challenger Oeiras 4 Qualification Round 1 after a ball has been played, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Francisco Rocha wins the Rocha vs Johns professional tennis match in the 2026 ATP Challenger Oeiras 4 Qualification Round 1 after a ball has been played, then the market resolves to Yes.",
+    "close_time": "2026-05-11T11:37:00Z",
+    "outcomes": [
+      "Francisco Rocha",
+      "Garrett Johns"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Garrett Johns"
+      ],
+      "resolved_at": "2026-05-11T17:01:27.880670+00:00",
+      "source": "KXATPCHALLENGERMATCH-26MAY10ROCJOH"
+    }
+  },
+  {
+    "event_ticker": "KXATPCHALLENGERMATCH-26MAY05PERLAL",
+    "market_ticker": "KXATPCHALLENGERMATCH-26MAY05PERLAL",
+    "title": "Who won the Perez vs Lalami Laaroussi ATP Challenger tennis match on May 5, 2026?",
+    "subtitle": null,
+    "description": "If Brandon Perez wins the Perez vs Lalami Laaroussi professional tennis match in the 2026 ATP Challenger Brazzaville Round Of 32 after a ball has been played, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Brandon Perez wins the Perez vs Lalami Laaroussi professional tennis match in the 2026 ATP Challenger Brazzaville Round Of 32 after a ball has been played, then the market resolves to Yes.",
+    "close_time": "2026-05-06T15:01:33Z",
+    "outcomes": [
+      "Brandon Perez",
+      "Younes Lalami Laaroussi"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Younes Lalami Laaroussi"
+      ],
+      "resolved_at": "2026-05-06T17:01:52.844403+00:00",
+      "source": "KXATPCHALLENGERMATCH-26MAY05PERLAL"
+    }
+  },
+  {
+    "event_ticker": "KXATPCHALLENGERMATCH-26MAY05BAXARC",
+    "market_ticker": "KXATPCHALLENGERMATCH-26MAY05BAXARC",
+    "title": "Who won the Bax vs Arcon ATP Challenger tennis match on May 5, 2026?",
+    "subtitle": null,
+    "description": "If Florent Bax wins the Bax vs Arcon professional tennis match in the 2026 ATP Challenger Brazzaville Round Of 32 after a ball has been played, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Florent Bax wins the Bax vs Arcon professional tennis match in the 2026 ATP Challenger Brazzaville Round Of 32 after a ball has been played, then the market resolves to Yes.",
+    "close_time": "2026-05-06T15:05:52Z",
+    "outcomes": [
+      "Florent Bax",
+      "Adrian Arcon"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Florent Bax"
+      ],
+      "resolved_at": "2026-05-06T17:01:52.222992+00:00",
+      "source": "KXATPCHALLENGERMATCH-26MAY05BAXARC"
+    }
+  },
+  {
+    "event_ticker": "KXWTACHALLENGERMATCH-26MAY05WATOKA",
+    "market_ticker": "KXWTACHALLENGERMATCH-26MAY05WATOKA",
+    "title": "Who won the Watson vs Okamura WTA Challenger tennis match on May 5, 2026?",
+    "subtitle": null,
+    "description": "If Heather Watson wins the Watson vs Okamura professional tennis match in the 2026 WTA 125K Jiujiang Round Of 16 after a ball has been played, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Heather Watson wins the Watson vs Okamura professional tennis match in the 2026 WTA 125K Jiujiang Round Of 16 after a ball has been played, then the market resolves to Yes.",
+    "close_time": "2026-05-06T05:42:14Z",
+    "outcomes": [
+      "Heather Watson",
+      "Kyoka Okamura"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Heather Watson"
+      ],
+      "resolved_at": "2026-05-06T06:13:52.195006+00:00",
+      "source": "KXWTACHALLENGERMATCH-26MAY05WATOKA"
+    }
+  },
+  {
+    "event_ticker": "KXCRICKETTESTMATCH-26MAY08PAKBAN",
+    "market_ticker": "KXCRICKETTESTMATCH-26MAY08PAKBAN",
+    "title": "Who won the Bangladesh vs Pakistan men's Test cricket match starting May 8, 2026?",
+    "subtitle": null,
+    "description": "If Bangladesh wins the Bangladesh vs Pakistan professional men's Test International Cricket match originally scheduled for May 8, 2026 at 12:00 AM EDT, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Bangladesh wins the Bangladesh vs Pakistan professional men's Test International Cricket match originally scheduled for May 8, 2026 at 12:00 AM EDT, then the market resolves to Yes.",
+    "close_time": "2026-05-12T13:10:34Z",
+    "outcomes": [
+      "Bangladesh",
+      "Pakistan"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Bangladesh"
+      ],
+      "resolved_at": "2026-05-12T17:02:14.852281+00:00",
+      "source": "KXCRICKETTESTMATCH-26MAY08PAKBAN"
+    }
+  },
+  {
+    "event_ticker": "KXCOUNTYCHAMPMATCH-26MAY08SOMGLA",
+    "market_ticker": "KXCOUNTYCHAMPMATCH-26MAY08SOMGLA",
+    "title": "Who won the Glamorgan vs Somerset 2026 County Championship cricket match?",
+    "subtitle": null,
+    "description": "If Glamorgan wins the Glamorgan vs Somerset professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Glamorgan wins the Glamorgan vs Somerset professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "close_time": "2026-05-11T15:40:49Z",
+    "outcomes": [
+      "Glamorgan",
+      "Somerset"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Glamorgan"
+      ],
+      "resolved_at": "2026-05-11T17:01:36.139142+00:00",
+      "source": "KXCOUNTYCHAMPMATCH-26MAY08SOMGLA"
+    }
+  },
+  {
+    "event_ticker": "KXCOUNTYCHAMPMATCH-26MAY08LEISUS",
+    "market_ticker": "KXCOUNTYCHAMPMATCH-26MAY08LEISUS",
+    "title": "Who won the Sussex vs Leicestershire 2026 County Championship cricket match?",
+    "subtitle": null,
+    "description": "If Sussex wins the Sussex vs Leicestershire professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Sussex wins the Sussex vs Leicestershire professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "close_time": "2026-05-11T16:11:49Z",
+    "outcomes": [
+      "Sussex",
+      "Leicestershire"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Sussex"
+      ],
+      "resolved_at": "2026-05-11T17:01:35.151295+00:00",
+      "source": "KXCOUNTYCHAMPMATCH-26MAY08LEISUS"
+    }
+  },
+  {
+    "event_ticker": "KXCOUNTYCHAMPMATCH-26MAY08DURWOR",
+    "market_ticker": "KXCOUNTYCHAMPMATCH-26MAY08DURWOR",
+    "title": "Who won the Worcestershire vs Durham 2026 County Championship cricket match?",
+    "subtitle": null,
+    "description": "If Worcestershire wins the Worcestershire vs Durham professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Worcestershire wins the Worcestershire vs Durham professional men's County Championship Cricket match originally scheduled for May 8, 2026 at 6:00 AM EDT, then the market resolves to Yes.",
+    "close_time": "2026-05-10T19:21:17Z",
+    "outcomes": [
+      "Worcestershire",
+      "Durham"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Durham"
+      ],
+      "resolved_at": "2026-05-11T17:01:34.628320+00:00",
+      "source": "KXCOUNTYCHAMPMATCH-26MAY08DURWOR"
+    }
+  },
+  {
+    "event_ticker": "KXLIGUE1-26",
+    "market_ticker": "KXLIGUE1-26",
+    "title": "Who won the 2025-26 Ligue 1 (French top-flight football)?",
+    "subtitle": null,
+    "description": "If PSG wins the Ligue 1, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If PSG wins the Ligue 1, then the market resolves to Yes.",
+    "close_time": "2026-05-14T01:14:31Z",
+    "outcomes": [
+      "PSG",
+      "Lille",
+      "Monaco",
+      "Lyon",
+      "Strasbourg Alsace",
+      "Stade Rennes",
+      "Marseille",
+      "Lens",
+      "Nice",
+      "Toulouse",
+      "Paris",
+      "Angers",
+      "Le Havre",
+      "Nantes",
+      "Auxerre",
+      "Lorient",
+      "Stade Brest 29",
+      "Metz"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "PSG"
+      ],
+      "resolved_at": "2026-05-14T17:02:40.386527+00:00",
+      "source": "KXLIGUE1-26"
+    }
+  },
+  {
+    "event_ticker": "KXLALIGA-26",
+    "market_ticker": "KXLALIGA-26",
+    "title": "Who won the 2025-26 La Liga (Spanish top-flight football)?",
+    "subtitle": null,
+    "description": "If Real Madrid wins the La Liga, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Real Madrid wins the La Liga, then the market resolves to Yes.",
+    "close_time": "2026-05-10T21:03:35Z",
+    "outcomes": [
+      "Real Madrid",
+      "Barcelona",
+      "Atletico Madrid",
+      "Villarreal",
+      "Athletic Bilbao",
+      "Betis",
+      "Real Sociedad",
+      "Girona",
+      "Celta Vigo",
+      "Valencia",
+      "Sevilla",
+      "Getafe",
+      "Espanyol",
+      "Osasuna",
+      "Alaves",
+      "Mallorca",
+      "Levante",
+      "Rayo Vallecano",
+      "Elche",
+      "Oviedo"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Barcelona"
+      ],
+      "resolved_at": "2026-05-11T17:01:57.159869+00:00",
+      "source": "KXLALIGA-26"
+    }
+  },
+  {
+    "event_ticker": "KXLIGAPORTUGAL-26",
+    "market_ticker": "KXLIGAPORTUGAL-26",
+    "title": "Who won the 2025-26 Liga Portugal (Portuguese top-flight football)?",
+    "subtitle": null,
+    "description": "If SC Braga is the 2025-26 Liga Portugal Champion, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If SC Braga is the 2025-26 Liga Portugal Champion, then the market resolves to Yes.",
+    "close_time": "2026-05-05T00:05:51Z",
+    "outcomes": [
+      "SC Braga",
+      "Sporting Lisbon",
+      "FC Porto",
+      "SL Benfica",
+      "Vitoria SC Guimaraes",
+      "Santa Clara Azores",
+      "Nacional da Madeira",
+      "Moreirense FC",
+      "Rio Ave FC",
+      "FC Arouca",
+      "Estoril Praia",
+      "Casa Pia Lisbon",
+      "CD Tondela",
+      "FC Famalicao",
+      "Estrela Amadora",
+      "AVS Futebol SAD",
+      "Gil Vicente Barcelos",
+      "FC Alverca SAD"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "FC Porto"
+      ],
+      "resolved_at": "2026-05-05T17:02:13.976318+00:00",
+      "source": "KXLIGAPORTUGAL-26"
+    }
+  },
+  {
+    "event_ticker": "KXSERIEA-26",
+    "market_ticker": "KXSERIEA-26",
+    "title": "Who won the 2025-26 Serie A (Italian top-flight football)?",
+    "subtitle": null,
+    "description": "If Napoli wins the Serie A, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Napoli wins the Serie A, then the market resolves to Yes.",
+    "close_time": "2026-05-04T23:29:48Z",
+    "outcomes": [
+      "Napoli",
+      "Juventus",
+      "Cremonese",
+      "Udinese",
+      "Milan",
+      "Roma",
+      "Atalanta",
+      "Cagliari",
+      "Como",
+      "Torino",
+      "Inter",
+      "Lazio",
+      "Bologna",
+      "Sassuolo",
+      "Genoa",
+      "Fiorentina",
+      "Hellas Verona",
+      "Pisa",
+      "Parma Calcio",
+      "Lecce"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Inter"
+      ],
+      "resolved_at": "2026-05-05T17:02:06.766728+00:00",
+      "source": "KXSERIEA-26"
+    }
+  },
+  {
+    "event_ticker": "KXEREDIVISIEGAME-26MAY10BREHEE",
+    "market_ticker": "KXEREDIVISIEGAME-26MAY10BREHEE",
+    "title": "Who won the Breda vs Heerenveen Eredivisie football match on May 10, 2026?",
+    "subtitle": null,
+    "description": "If Breda wins the Breda vs Heerenveen professional Eredivisie soccer game originally scheduled for May 10, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Breda wins the Breda vs Heerenveen professional Eredivisie soccer game originally scheduled for May 10, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+    "close_time": "2026-05-11T12:52:15Z",
+    "outcomes": [
+      "Breda",
+      "Heerenveen",
+      "Tie"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Breda"
+      ],
+      "resolved_at": "2026-05-11T17:01:27.234680+00:00",
+      "source": "KXEREDIVISIEGAME-26MAY10BREHEE"
+    }
+  },
+  {
+    "event_ticker": "KXNBASERIES-26LALOKCR2",
+    "market_ticker": "KXNBASERIES-26LALOKCR2",
+    "title": "Who won the Los Angeles Lakers vs Oklahoma City NBA Round 2 playoff series in 2026?",
+    "subtitle": null,
+    "description": "If Oklahoma City wins the Los Angeles L vs Oklahoma City 2nd Round series in the 2026 Pro Basketball Playoffs, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Oklahoma City wins the Los Angeles L vs Oklahoma City 2nd Round series in the 2026 Pro Basketball Playoffs, then the market resolves to Yes.",
+    "close_time": "2026-05-12T05:32:05Z",
+    "outcomes": [
+      "Oklahoma City",
+      "Los Angeles L"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Oklahoma City"
+      ],
+      "resolved_at": "2026-05-12T06:17:44.048873+00:00",
+      "source": "KXNBASERIES-26LALOKCR2"
+    }
+  },
+  {
+    "event_ticker": "KXNHLCALDER-26",
+    "market_ticker": "KXNHLCALDER-26",
+    "title": "Who won the 2025-26 NHL Calder Memorial Trophy (Rookie of the Year)?",
+    "subtitle": null,
+    "description": "If Ivan Demidov wins the NHL Calder Memorial Trophy in the 2025-26 NHL season, then the market resolves to Yes.",
+    "category": "Sports",
+    "rules": "If Ivan Demidov wins the NHL Calder Memorial Trophy in the 2025-26 NHL season, then the market resolves to Yes.",
+    "close_time": "2026-05-13T18:42:22Z",
+    "outcomes": [
+      "Ivan Demidov",
+      "Matthew Schaefer",
+      "Michael Misa",
+      "Zeev Buium",
+      "Isaac Howard",
+      "Jimmy Snuggerud",
+      "Alexander Nikishin",
+      "Zayne Parekh",
+      "Maxim Shabanov",
+      "Ryan Leonard",
+      "Yaroslav Askarov",
+      "Gabe Perreault",
+      "Matthew Savoie",
+      "Axel Sandin-Pellikka",
+      "Bradly Nadeau",
+      "Jesper Wallstedt",
+      "Rutger McGroarty",
+      "Sam Dickinson",
+      "Sam Rinzel",
+      "Ville Koivunen",
+      "Artyom Levshunov",
+      "Easton Cowan",
+      "Arseni Gritsyuk",
+      "Beckett Sennecke",
+      "Calum Ritchie",
+      "Jonathan Lekkerimaki",
+      "Berkly Catton",
+      "Danila Yurov",
+      "Leevi Merilaninen",
+      "Alex Bump"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Matthew Schaefer"
+      ],
+      "resolved_at": "2026-05-14T17:03:46.694956+00:00",
+      "source": "KXNHLCALDER-26"
+    }
+  },
+  {
+    "event_ticker": "KXROASTSUBJECT-30JAN01",
+    "market_ticker": "KXROASTSUBJECT-30JAN01",
+    "title": "Who was Netflix's next live roast subject after Tom Brady?",
+    "subtitle": null,
+    "description": "If Kevin Hart is or if it is announced that Kevin Hart is the the primary target of the roast and whose name appears in the official title or promotional materials of the roast special at the next Netflix-produced live or recorded celebrity roast special released on Netflix, then the market resolves to Yes.",
+    "category": "Entertainment",
+    "rules": "If Kevin Hart is or if it is announced that Kevin Hart is the the primary target of the roast and whose name appears in the official title or promotional materials of the roast special at the next Netflix-produced live or recorded celebrity roast special released on Netflix, then the market resolves to Yes.",
+    "close_time": "2026-05-10T20:28:18Z",
+    "outcomes": [
+      "Kevin Hart",
+      "Elon Musk",
+      "Taylor Swift",
+      "Drake",
+      "Joe Rogan",
+      "Logan Paul",
+      "MrBeast",
+      "Theo Von",
+      "Shane Gillis",
+      "Andrew Schulz",
+      "Jake Paul"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Kevin Hart"
+      ],
+      "resolved_at": "2026-05-11T17:06:09.100559+00:00",
+      "source": "KXROASTSUBJECT-30JAN01"
+    }
+  },
+  {
+    "event_ticker": "KXTOURNAMENTOFCHAMPIONS-26DEC31",
+    "market_ticker": "KXTOURNAMENTOFCHAMPIONS-26DEC31",
+    "title": "Who won Tournament of Champions Season 7 (Food Network)?",
+    "subtitle": null,
+    "description": "If Adam Greenberg is officially declared the winner of Tournament of Champions Season 7 before Dec 31, 2026, then the market resolves to Yes.",
+    "category": "Entertainment",
+    "rules": "If Adam Greenberg is officially declared the winner of Tournament of Champions Season 7 before Dec 31, 2026, then the market resolves to Yes.",
+    "close_time": "2026-04-20T14:37:42Z",
+    "outcomes": [
+      "Adam Greenberg",
+      "Adam Sobel",
+      "Britt Rescigno",
+      "Bryan Voltaggio",
+      "Carlos Anthony",
+      "Claudette Zepeda",
+      "Dale Talde",
+      "David Viana",
+      "Jet Tila",
+      "Joe Sasto",
+      "Jonathon Sawyer",
+      "Kaleena Bliss",
+      "Karen Akunowicz",
+      "Kevin Lee",
+      "Lee Anne Wong",
+      "Marcel Vigneron",
+      "Nini Nguyen",
+      "Sara Bradley",
+      "Shirley Chung",
+      "Tobias Dorzon"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Bryan Voltaggio"
+      ],
+      "resolved_at": "2026-04-20T17:05:35.833278+00:00",
+      "source": "KXTOURNAMENTOFCHAMPIONS-26DEC31"
+    }
+  },
+  {
+    "event_ticker": "KXSURVIVORELIMINATION-26APR11",
+    "market_ticker": "KXSURVIVORELIMINATION-26APR11",
+    "title": "Which contestants were eliminated from Survivor Season 50 Episode 7?",
+    "subtitle": null,
+    "description": "If Rizo Velovic is officially eliminated from Survivor Season 50 Episode 7, then the market resolves to Yes.",
+    "category": "Entertainment",
+    "rules": "If Rizo Velovic is officially eliminated from Survivor Season 50 Episode 7, then the market resolves to Yes.",
+    "close_time": "2026-04-09T16:43:16Z",
+    "outcomes": [
+      "Rizo Velovic",
+      "Aubry Bracco",
+      "Ozzy Lusth",
+      "Chrissy Hofbeck",
+      "Christian Hubicki",
+      "Cirie Fields",
+      "Benjamin \u201cCoach\u201d Wade",
+      "Rick Devens",
+      "Dee Valladares",
+      "Emily Flippen",
+      "Tiffany Nicole Ervin",
+      "Stephenie LaGrossa Kendrick",
+      "Joe Hunter",
+      "Jonathan Young"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Dee Valladares"
+      ],
+      "resolved_at": "2026-04-10T00:10:04.222314+00:00",
+      "source": "KXSURVIVORELIMINATION-26APR11"
+    }
+  },
+  {
+    "event_ticker": "KXTHEMASKEDSINGER-27JAN01",
+    "market_ticker": "KXTHEMASKEDSINGER-27JAN01",
+    "title": "Who won The Masked Singer Season 14?",
+    "subtitle": null,
+    "description": "If 14 Karat Carrot is officially declared the winner of The Masked Singer: Season 14 before Jan 1, 2027, then the market resolves to Yes.",
+    "category": "Entertainment",
+    "rules": "If 14 Karat Carrot is officially declared the winner of The Masked Singer: Season 14 before Jan 1, 2027, then the market resolves to Yes.",
+    "close_time": "2026-04-02T15:11:34Z",
+    "outcomes": [
+      "14 Karat Carrot",
+      "Calla Lily",
+      "Cat Witch",
+      "Crane",
+      "The Croissants",
+      "Eggplant",
+      "Galaxy Girl",
+      "Googly Eyes",
+      "Handyman",
+      "High Voltage",
+      "Le Who Who",
+      "Owl",
+      "Pangolin",
+      "Pugcasso",
+      "Queen Corgi",
+      "Scarab",
+      "Snow Cone",
+      "Stingray"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Galaxy Girl"
+      ],
+      "resolved_at": "2026-04-03T00:04:58.796446+00:00",
+      "source": "KXTHEMASKEDSINGER-27JAN01"
+    }
+  },
+  {
+    "event_ticker": "KXWVPRIMARY-01D26",
+    "market_ticker": "KXWVPRIMARY-01D26",
+    "title": "Who won the 2026 Democratic primary for West Virginia's 1st Congressional District?",
+    "subtitle": null,
+    "description": "If Brit Aguirre wins the nomination for the Democratic Party to contest the 2026 WV-01 House seat, then the market resolves to Yes.",
+    "category": "Elections",
+    "rules": "If Brit Aguirre wins the nomination for the Democratic Party to contest the 2026 WV-01 House seat, then the market resolves to Yes.",
+    "close_time": "2026-05-13T14:37:39Z",
+    "outcomes": [
+      "Brit Aguirre",
+      "Vince George"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Vince George"
+      ],
+      "resolved_at": "2026-05-13T17:04:35.635220+00:00",
+      "source": "KXWVPRIMARY-01D26"
+    }
+  },
+  {
+    "event_ticker": "KXNEXTHUNGARYPM-26MAY01",
+    "market_ticker": "KXNEXTHUNGARYPM-26MAY01",
+    "title": "Who became Prime Minister of Hungary after the 2026 election?",
+    "subtitle": null,
+    "description": "If P\u00e9ter Magyar becomes Prime Minister of Hungary as a result of government formation following the 2026 Hungarian parliamentary election and meets all constitutional requirements before May 1, 2027, then the market resolves to Yes.",
+    "category": "Elections",
+    "rules": "If P\u00e9ter Magyar becomes Prime Minister of Hungary as a result of government formation following the 2026 Hungarian parliamentary election and meets all constitutional requirements before May 1, 2027, then the market resolves to Yes.",
+    "close_time": "2026-05-09T17:52:03Z",
+    "outcomes": [
+      "P\u00e9ter Magyar",
+      "Viktor Orb\u00e1n"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "P\u00e9ter Magyar"
+      ],
+      "resolved_at": "2026-05-10T17:05:49.446638+00:00",
+      "source": "KXNEXTHUNGARYPM-26MAY01"
+    }
+  },
+  {
+    "event_ticker": "KXOHPRIMARY-15D26",
+    "market_ticker": "KXOHPRIMARY-15D26",
+    "title": "Who won the 2026 Democratic primary for Ohio's 15th Congressional District?",
+    "subtitle": null,
+    "description": "If Don Leonard wins the nomination for the Democratic Party to contest the 2026 OH-15 House seat, then the market resolves to Yes.",
+    "category": "Elections",
+    "rules": "If Don Leonard wins the nomination for the Democratic Party to contest the 2026 OH-15 House seat, then the market resolves to Yes.",
+    "close_time": "2026-05-06T15:11:12Z",
+    "outcomes": [
+      "Don Leonard",
+      "Adam Miller"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Don Leonard"
+      ],
+      "resolved_at": "2026-05-06T17:04:01.702518+00:00",
+      "source": "KXOHPRIMARY-15D26"
+    }
+  },
+  {
+    "event_ticker": "KXCOLOMBIASENATE-26",
+    "market_ticker": "KXCOLOMBIASENATE-26",
+    "title": "Which coalition won the 2026 Colombia Senate election?",
+    "subtitle": null,
+    "description": "If the winner of the next Colombian Senate election scheduled to be held in 2026 (at the latest) is Government Alliance, then the market resolves to Yes.",
+    "category": "Politics",
+    "rules": "If the winner of the next Colombian Senate election scheduled to be held in 2026 (at the latest) is Government Alliance, then the market resolves to Yes.",
+    "close_time": "2026-04-20T20:35:36Z",
+    "outcomes": [
+      "Government Alliance",
+      "Opposition"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "Government Alliance"
+      ],
+      "resolved_at": "2026-04-21T17:02:14.570330+00:00",
+      "source": "KXCOLOMBIASENATE-26"
+    }
+  },
+  {
+    "event_ticker": "KXVRASCOTUSVOTE-26",
+    "market_ticker": "KXVRASCOTUSVOTE-26",
+    "title": "How many Supreme Court justices voted in favor of Louisiana in Louisiana v. Callais (2026)?",
+    "subtitle": null,
+    "description": "If exactly 0 justices vote in favor of the petitioner in Louisiana v. Callais, then the market resolves to Yes.",
+    "category": "Politics",
+    "rules": "If exactly 0 justices vote in favor of the petitioner in Louisiana v. Callais, then the market resolves to Yes.",
+    "close_time": "2026-04-29T14:43:10Z",
+    "outcomes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "3"
+      ],
+      "resolved_at": "2026-04-29T17:02:43.504949+00:00",
+      "source": "KXVRASCOTUSVOTE-26"
+    }
+  },
+  {
+    "event_ticker": "KXFEDCHAIRCOUNT-27",
+    "market_ticker": "KXFEDCHAIRCOUNT-27",
+    "title": "How many US Senators voted for Trump's Federal Reserve Chair pick (2027 confirmation vote)?",
+    "subtitle": null,
+    "description": "If the number of Senators voting Yea for the nomination of Trump\u2019s first officially announced pick for Chairman of the Federal Reserve after Issuance and before Jan 1, 2027 is below 50, then the market resolves to Yes.",
+    "category": "Politics",
+    "rules": "If the number of Senators voting Yea for the nomination of Trump\u2019s first officially announced pick for Chairman of the Federal Reserve after Issuance and before Jan 1, 2027 is below 50, then the market resolves to Yes.",
+    "close_time": "2026-05-13T19:42:01Z",
+    "outcomes": [
+      "49 or below",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60 or above"
+    ],
+    "resolved_outcome": {
+      "value": [
+        "54"
+      ],
+      "resolved_at": "2026-05-14T17:06:28.545740+00:00",
+      "source": "KXFEDCHAIRCOUNT-27"
+    }
+  }
+]

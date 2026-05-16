@@ -1,0 +1,610 @@
+[
+    {
+        "probabilities": [
+            {
+                "market": "Above 1.400M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.425M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.450M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.475M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.500M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.525M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.550M",
+                "probability": 0.12
+            },
+            {
+                "market": "Above 1.575M",
+                "probability": 0.12
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Above -0.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above -0.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above -0.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above -0.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above -0.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.5%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.6%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.7%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.8%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.9%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 1.0%",
+                "probability": 0.06
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Exactly 2.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.5%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.6%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.7%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.8%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.9%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.5%",
+                "probability": 0.06
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Exactly -0.2%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly -0.1%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.0%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.1%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.2%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.3%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.4%",
+                "probability": 0.12
+            },
+            {
+                "market": "Exactly 0.5%",
+                "probability": 0.12
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Cut more than 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Cut 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Maintain current rate",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike more than 25bps",
+                "probability": 0.2
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Cut more than 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Cut 1-25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Maintain current rate",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike 1-25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike more than 25bps",
+                "probability": 0.2
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Above -0.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above -0.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.5%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.6%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.7%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.8%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 0.9%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 1.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 1.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 1.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 1.3%",
+                "probability": 0.06
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Above 3.60%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 3.70%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 3.80%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 3.90%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.00%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.10%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.20%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.30%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.40%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.50%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.60%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.70%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.80%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 4.90%",
+                "probability": 0.06
+            },
+            {
+                "market": "Above 5.00%",
+                "probability": 0.06
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Exactly 2.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.5%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.6%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.7%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.8%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 2.9%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.0%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.1%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.2%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.3%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.4%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.5%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.6%",
+                "probability": 0.06
+            },
+            {
+                "market": "Exactly 3.7%",
+                "probability": 0.06
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Exactly -0.2%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly -0.1%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.0%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.1%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.2%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.3%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.4%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.5%",
+                "probability": 0.11
+            },
+            {
+                "market": "Exactly 0.6%",
+                "probability": 0.11
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Cut >25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Cut 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Maintains rate",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike 25bps",
+                "probability": 0.2
+            },
+            {
+                "market": "Hike >25bps",
+                "probability": 0.2
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Above 2.75%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.00%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.25%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.50%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.75%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.00%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.25%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.50%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.75%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 5.00%",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 5.25%",
+                "probability": 0.09
+            }
+        ]
+    },
+    {
+        "probabilities": [
+            {
+                "market": "Above 2.50",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 2.75",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.00",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.25",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.50",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 3.75",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.00",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.25",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.50",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 4.75",
+                "probability": 0.09
+            },
+            {
+                "market": "Above 5.00",
+                "probability": 0.09
+            }
+        ]
+    }
+]
