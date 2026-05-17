@@ -1,0 +1,562 @@
+{
+  "KXNBASERIES-26MINSASR2": {
+    "probabilities": [
+      {
+        "market": "San Antonio",
+        "probability": 0.98
+      },
+      {
+        "market": "Minnesota",
+        "probability": 0.02
+      }
+    ],
+    "cached_at": 1779054637.2740474
+  },
+  "KXPREMIERLEAGUE-26": {
+    "probabilities": [
+      {
+        "market": "Liverpool",
+        "probability": 0.3454
+      },
+      {
+        "market": "Arsenal",
+        "probability": 0.3
+      },
+      {
+        "market": "Man City",
+        "probability": 0.1636
+      },
+      {
+        "market": "Chelsea",
+        "probability": 0.0364
+      },
+      {
+        "market": "Newcastle",
+        "probability": 0.0136
+      },
+      {
+        "market": "Man Utd",
+        "probability": 0.0136
+      },
+      {
+        "market": "Tottenham",
+        "probability": 0.0091
+      },
+      {
+        "market": "Aston Villa",
+        "probability": 0.0091
+      },
+      {
+        "market": "Nottingham Forest",
+        "probability": 0.0091
+      },
+      {
+        "market": "Brighton",
+        "probability": 0.0091
+      },
+      {
+        "market": "Bournemouth",
+        "probability": 0.0091
+      },
+      {
+        "market": "Everton",
+        "probability": 0.0091
+      },
+      {
+        "market": "Crystal Palace",
+        "probability": 0.0091
+      },
+      {
+        "market": "West Ham",
+        "probability": 0.0091
+      },
+      {
+        "market": "Leeds",
+        "probability": 0.0091
+      },
+      {
+        "market": "Fulham",
+        "probability": 0.0091
+      },
+      {
+        "market": "Brentford",
+        "probability": 0.0091
+      },
+      {
+        "market": "Wolves",
+        "probability": 0.0091
+      },
+      {
+        "market": "Burnley",
+        "probability": 0.0091
+      },
+      {
+        "market": "Sunderland",
+        "probability": 0.0091
+      }
+    ],
+    "cached_at": 1779054640.1015918
+  },
+  "KXEUROLEAGUE-26": {
+    "probabilities": [
+      {
+        "market": "Valencia Basket",
+        "probability": 0.08
+      },
+      {
+        "market": "AS Monaco",
+        "probability": 0.12
+      },
+      {
+        "market": "KK Crvena zvezda Belgrade",
+        "probability": 0.01
+      },
+      {
+        "market": "Panathinaikos BC",
+        "probability": 0.15
+      },
+      {
+        "market": "FC Barcelona",
+        "probability": 0.03
+      },
+      {
+        "market": "BC Olympiakos Piraeus",
+        "probability": 0.22
+      },
+      {
+        "market": "Fenerbahce Istanbul",
+        "probability": 0.16
+      },
+      {
+        "market": "Hapoel Tel-Aviv",
+        "probability": 0.05
+      },
+      {
+        "market": "Real Madrid",
+        "probability": 0.14
+      },
+      {
+        "market": "BC Zalgiris Kaunas",
+        "probability": 0.04
+      }
+    ],
+    "cached_at": 1779054642.8721094
+  },
+  "KXPREMDARTS-26": {
+    "probabilities": [
+      {
+        "market": "Luke Littler",
+        "probability": 0.31
+      },
+      {
+        "market": "Luke Humphries",
+        "probability": 0.24
+      },
+      {
+        "market": "Michael van Gerwen",
+        "probability": 0.14
+      },
+      {
+        "market": "Gian van Veen",
+        "probability": 0.08
+      },
+      {
+        "market": "Stephen Bunting",
+        "probability": 0.07
+      },
+      {
+        "market": "Gerwyn Price",
+        "probability": 0.08
+      },
+      {
+        "market": "Josh Rock",
+        "probability": 0.04
+      },
+      {
+        "market": "Jonny Clayton",
+        "probability": 0.04
+      }
+    ],
+    "cached_at": 1779054644.8586786
+  },
+  "KXNBAEAST-26": {
+    "probabilities": [
+      {
+        "market": "Detroit",
+        "probability": 0.2157
+      },
+      {
+        "market": "Atlanta",
+        "probability": 0.0294
+      },
+      {
+        "market": "Boston",
+        "probability": 0.0196
+      },
+      {
+        "market": "Brooklyn",
+        "probability": 0.0098
+      },
+      {
+        "market": "Charlotte",
+        "probability": 0.0098
+      },
+      {
+        "market": "Chicago",
+        "probability": 0.0098
+      },
+      {
+        "market": "Cleveland",
+        "probability": 0.098
+      },
+      {
+        "market": "Indiana",
+        "probability": 0.0098
+      },
+      {
+        "market": "Miami",
+        "probability": 0.0098
+      },
+      {
+        "market": "Milwaukee",
+        "probability": 0.0294
+      },
+      {
+        "market": "New York",
+        "probability": 0.5197
+      },
+      {
+        "market": "Orlando",
+        "probability": 0.0098
+      },
+      {
+        "market": "Philadelphia",
+        "probability": 0.0098
+      },
+      {
+        "market": "Toronto",
+        "probability": 0.0098
+      },
+      {
+        "market": "Washington",
+        "probability": 0.0098
+      }
+    ],
+    "cached_at": 1779054647.4715533
+  },
+  "KXNBAWEST-26": {
+    "probabilities": [
+      {
+        "market": "Dallas",
+        "probability": 0.0198
+      },
+      {
+        "market": "Denver",
+        "probability": 0.1188
+      },
+      {
+        "market": "Houston",
+        "probability": 0.0396
+      },
+      {
+        "market": "Los Angeles L",
+        "probability": 0.1188
+      },
+      {
+        "market": "Los Angeles C",
+        "probability": 0.0198
+      },
+      {
+        "market": "Memphis",
+        "probability": 0.0099
+      },
+      {
+        "market": "Minnesota",
+        "probability": 0.0891
+      },
+      {
+        "market": "New Orleans",
+        "probability": 0.0099
+      },
+      {
+        "market": "Oklahoma City",
+        "probability": 0.4456
+      },
+      {
+        "market": "Phoenix",
+        "probability": 0.0099
+      },
+      {
+        "market": "Portland",
+        "probability": 0.0099
+      },
+      {
+        "market": "Sacramento",
+        "probability": 0.0099
+      },
+      {
+        "market": "Utah",
+        "probability": 0.0099
+      },
+      {
+        "market": "San Antonio",
+        "probability": 0.0792
+      },
+      {
+        "market": "Golden State",
+        "probability": 0.0099
+      }
+    ],
+    "cached_at": 1779054650.5477576
+  },
+  "KXNBA-26": {
+    "probabilities": [
+      {
+        "market": "Atlanta",
+        "probability": 0.0092
+      },
+      {
+        "market": "Boston",
+        "probability": 0.0183
+      },
+      {
+        "market": "Brooklyn",
+        "probability": 0.0092
+      },
+      {
+        "market": "Charlotte",
+        "probability": 0.0092
+      },
+      {
+        "market": "Chicago",
+        "probability": 0.0092
+      },
+      {
+        "market": "Cleveland",
+        "probability": 0.0275
+      },
+      {
+        "market": "Dallas",
+        "probability": 0.0183
+      },
+      {
+        "market": "Denver",
+        "probability": 0.1009
+      },
+      {
+        "market": "Detroit",
+        "probability": 0.0183
+      },
+      {
+        "market": "Golden State",
+        "probability": 0.0092
+      },
+      {
+        "market": "Houston",
+        "probability": 0.0092
+      },
+      {
+        "market": "Indiana",
+        "probability": 0.0092
+      },
+      {
+        "market": "Los Angeles C",
+        "probability": 0.0092
+      },
+      {
+        "market": "Los Angeles L",
+        "probability": 0.0092
+      },
+      {
+        "market": "Memphis",
+        "probability": 0.0092
+      },
+      {
+        "market": "Miami",
+        "probability": 0.0092
+      },
+      {
+        "market": "Milwaukee",
+        "probability": 0.0092
+      },
+      {
+        "market": "Minnesota",
+        "probability": 0.0092
+      },
+      {
+        "market": "New Orleans",
+        "probability": 0.0092
+      },
+      {
+        "market": "New York",
+        "probability": 0.055
+      },
+      {
+        "market": "Oklahoma City",
+        "probability": 0.4033
+      },
+      {
+        "market": "Orlando",
+        "probability": 0.0092
+      },
+      {
+        "market": "Philadelphia",
+        "probability": 0.0092
+      },
+      {
+        "market": "Phoenix",
+        "probability": 0.0092
+      },
+      {
+        "market": "Portland",
+        "probability": 0.0092
+      },
+      {
+        "market": "Sacramento",
+        "probability": 0.0092
+      },
+      {
+        "market": "San Antonio",
+        "probability": 0.156
+      },
+      {
+        "market": "Toronto",
+        "probability": 0.0092
+      },
+      {
+        "market": "Utah",
+        "probability": 0.0092
+      },
+      {
+        "market": "Washington",
+        "probability": 0.0092
+      }
+    ],
+    "cached_at": 1779054654.932544
+  },
+  "KXNHLHART-26": {
+    "probabilities": [
+      {
+        "market": "Connor McDavid",
+        "probability": 0.3137
+      },
+      {
+        "market": "Nathan MacKinnon",
+        "probability": 0.2593
+      },
+      {
+        "market": "Kirill Kaprizov",
+        "probability": 0.0093
+      },
+      {
+        "market": "Leon Draisaitl",
+        "probability": 0.0093
+      },
+      {
+        "market": "Nikita Kucherov",
+        "probability": 0.1759
+      },
+      {
+        "market": "Auston Matthews",
+        "probability": 0.0093
+      },
+      {
+        "market": "David Pastrnak",
+        "probability": 0.0093
+      },
+      {
+        "market": "Jack Eichel",
+        "probability": 0.0093
+      },
+      {
+        "market": "Connor Hellebuyck",
+        "probability": 0.0093
+      },
+      {
+        "market": "Jack Hughes",
+        "probability": 0.0093
+      },
+      {
+        "market": "Cale Makar",
+        "probability": 0.0093
+      },
+      {
+        "market": "Mitch Marner",
+        "probability": 0.0093
+      },
+      {
+        "market": "Quinn Hughes",
+        "probability": 0.0093
+      },
+      {
+        "market": "Mikko Rantanen",
+        "probability": 0.0093
+      },
+      {
+        "market": "Artemi Panarin",
+        "probability": 0.0093
+      },
+      {
+        "market": "Igor Shesterkin",
+        "probability": 0.0093
+      },
+      {
+        "market": "Kyle Connor",
+        "probability": 0.0093
+      },
+      {
+        "market": "Matthew Tkachuk",
+        "probability": 0.0093
+      },
+      {
+        "market": "William Nylander",
+        "probability": 0.0093
+      },
+      {
+        "market": "Andrei Vasilevskiy",
+        "probability": 0.0093
+      },
+      {
+        "market": "Brady Tkachuk",
+        "probability": 0.0093
+      },
+      {
+        "market": "Connor Bedard",
+        "probability": 0.0093
+      },
+      {
+        "market": "Dustin Wolf",
+        "probability": 0.0093
+      },
+      {
+        "market": "Macklin Celebrini",
+        "probability": 0.0093
+      },
+      {
+        "market": "Nick Suzuki",
+        "probability": 0.0093
+      },
+      {
+        "market": "Adam Fox",
+        "probability": 0.0093
+      },
+      {
+        "market": "Adrian Kempe",
+        "probability": 0.0093
+      },
+      {
+        "market": "Alex Debrincat",
+        "probability": 0.0093
+      },
+      {
+        "market": "Alex Ovechkin",
+        "probability": 0.0093
+      },
+      {
+        "market": "Alexander Nikishin",
+        "probability": 0.0093
+      }
+    ],
+    "cached_at": 1779054659.2307773
+  }
+}
