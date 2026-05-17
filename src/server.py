@@ -10,6 +10,14 @@ how to run:
 Usage:
     prophet forecast predict --events events.json --agent-url http://localhost:8000/predict -o predictions.json
 
+
+For Render:
+    1. Create a Render web service with the following settings:
+    - Environment: Python 3
+    - Build Command: `pip install -r requirements.txt`
+    - Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+    2. Set the OPENROUTER_API_KEY environment variable in Render's dashboard.
+
 """
 
 
