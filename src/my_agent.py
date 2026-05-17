@@ -9,9 +9,15 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
 )
 
-ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+ODDS_API_KEYS = [
+    os.environ.get("ODDS_API_KEY", ""),
+    os.environ.get("ODDS_API_KEY_2", ""),
+    os.environ.get("ODDS_API_KEY_3", ""),
+]
+ODDS_API_KEYS = [k for k in ODDS_API_KEYS if k]  # Remove empty ones
+
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "predictions_cache.json")
-CACHE_TTL_HOURS = 24  # Refresh predictions older than this
+CACHE_TTL_HOURS = 24
 
 SPORT_MAP = {
     "KXNBA": "basketball_nba",
@@ -31,7 +37,6 @@ SPORT_MAP = {
     "KXCHAMPIONS": "soccer_uefa_champs_league",
     "KXNFL": "americanfootball_nfl",
     "KXNCAA": "americanfootball_ncaaf",
-    "KXNBA2": "basketball_nba",
     "KXWNBA": "basketball_wnba",
     "KXPGA": "golf_pga_championship_winner",
     "KXMASTERS": "golf_masters_tournament_winner",
@@ -156,40 +161,43 @@ def get_sport_key(event_ticker: str) -> str | None:
 
 
 def fetch_odds(sport_key: str) -> str:
-    try:
-        url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds"
-        params = {
-            "apiKey": ODDS_API_KEY,
-            "regions": "us,uk",
-            "markets": "h2h,outrights",
-            "oddsFormat": "decimal",
-        }
-        resp = requests.get(url, params=params, timeout=10)
-        if resp.status_code != 200:
-            return ""
-        games = resp.json()
-        if not games:
-            return ""
+    for api_key in ODDS_API_KEYS:
+        try:
+            url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds"
+            params = {
+                "apiKey": api_key,
+                "regions": "us,uk",
+                "markets": "h2h,outrights",
+                "oddsFormat": "decimal",
+            }
+            resp = requests.get(url, params=params, timeout=10)
+            if resp.status_code in (401, 429):
+                continue
+            if resp.status_code != 200:
+                return ""
+            games = resp.json()
+            if not games:
+                return ""
 
-        lines = []
-        for game in games[:5]:
-            home = game.get("home_team", "")
-            away = game.get("away_team", "")
-            lines.append(f"Match: {away} vs {home}")
-            for bookmaker in game.get("bookmakers", [])[:2]:
-                for market in bookmaker.get("markets", []):
-                    for outcome in market.get("outcomes", []):
-                        implied = round(1 / outcome["price"], 3)
-                        lines.append(
-                            f"  {outcome['name']}: {outcome['price']} decimal odds (implied {implied})"
-                        )
-        return "\n".join(lines)
-    except Exception:
-        return ""
+            lines = []
+            for game in games[:5]:
+                home = game.get("home_team", "")
+                away = game.get("away_team", "")
+                lines.append(f"Match: {away} vs {home}")
+                for bookmaker in game.get("bookmakers", [])[:2]:
+                    for market in bookmaker.get("markets", []):
+                        for outcome in market.get("outcomes", []):
+                            implied = round(1 / outcome["price"], 3)
+                            lines.append(
+                                f"  {outcome['name']}: {outcome['price']} decimal odds (implied {implied})"
+                            )
+            return "\n".join(lines)
+        except Exception:
+            continue
+    return ""
 
 
 def research_event(event: dict) -> str:
-    """Two-step research for unknown or complex event types."""
     try:
         research_prompt = f"""Research this forecasting question and provide the most relevant current information:
 
@@ -239,7 +247,7 @@ def predict(event: dict) -> dict:
 
     # Fetch odds for sports events
     odds_context = ""
-    if category == "Sports" and ODDS_API_KEY:
+    if category == "Sports" and ODDS_API_KEYS:
         sport_key = get_sport_key(event.get("event_ticker", ""))
         if sport_key:
             odds_data = fetch_odds(sport_key)
@@ -269,7 +277,6 @@ Possible outcomes (assign a probability to each):
 
     try:
         response = client.chat.completions.create(
-            #model="perplexity/sonar",
             model="perplexity/sonar",
             max_tokens=1000,
             messages=[
@@ -303,6 +310,8 @@ Possible outcomes (assign a probability to each):
         largest = max(probs, key=lambda x: x["probability"])
         largest["probability"] = round(largest["probability"] + diff, 4)
 
+    result = {"probabilities": probs}
+
     # Cache with timestamp
     cache[ticker] = {
         "probabilities": probs,
@@ -310,4 +319,4 @@ Possible outcomes (assign a probability to each):
     }
     save_cache(cache)
 
-    return {"probabilities": probs}
+    return result
