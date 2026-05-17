@@ -1,0 +1,310 @@
+{
+  "timestamp": "2026-05-17T20:51:43.407913Z",
+  "predictions": [
+    {
+      "market_ticker": "KXNETFLIXTOPVIEWSTV-26MAY18",
+      "probabilities": [
+        {
+          "market": "At least 6 million",
+          "probability": 0.3257
+        },
+        {
+          "market": "At least 9 million",
+          "probability": 0.273
+        },
+        {
+          "market": "At least 12 million",
+          "probability": 0.1776
+        },
+        {
+          "market": "At least 15 million",
+          "probability": 0.0954
+        },
+        {
+          "market": "At least 18 million",
+          "probability": 0.0559
+        },
+        {
+          "market": "At least 21 million",
+          "probability": 0.0329
+        },
+        {
+          "market": "At least 25 million",
+          "probability": 0.0197
+        },
+        {
+          "market": "At least 30 million",
+          "probability": 0.0099
+        },
+        {
+          "market": "At least 35 million",
+          "probability": 0.0033
+        },
+        {
+          "market": "At least 40 million",
+          "probability": 0.0033
+        },
+        {
+          "market": "At least 50 million",
+          "probability": 0.0033
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXANIMEBS-26",
+      "probabilities": [
+        {
+          "market": "The Apothecary Diaries",
+          "probability": 0.17
+        },
+        {
+          "market": "Chainsaw Man – The Movie: Reze Arc",
+          "probability": 0.24
+        },
+        {
+          "market": "DAN DA DAN Season 2",
+          "probability": 0.15
+        },
+        {
+          "market": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+          "probability": 0.18
+        },
+        {
+          "market": "Gachiakuta",
+          "probability": 0.07
+        },
+        {
+          "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+          "probability": 0.16
+        },
+        {
+          "market": "Tie",
+          "probability": 0.03
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXANIMEBAC-26",
+      "probabilities": [
+        {
+          "market": "DAN DA DAN Season 2",
+          "probability": 0.18
+        },
+        {
+          "market": "Gachiakuta",
+          "probability": 0.11
+        },
+        {
+          "market": "Kaiju No. 8 Season 2",
+          "probability": 0.12
+        },
+        {
+          "market": "My Hero Academia FINAL SEASON",
+          "probability": 0.16
+        },
+        {
+          "market": "ONE PIECE",
+          "probability": 0.15
+        },
+        {
+          "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+          "probability": 0.21
+        },
+        {
+          "market": "Tie",
+          "probability": 0.07
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXANIMEBR-26",
+      "probabilities": [
+        {
+          "market": "Blue Box",
+          "probability": 0.06
+        },
+        {
+          "market": "DAN DA DAN Season 2",
+          "probability": 0.13
+        },
+        {
+          "market": "The Fragrant Flower Blooms With Dignity",
+          "probability": 0.54
+        },
+        {
+          "market": "Honey Lemon Soda",
+          "probability": 0.02
+        },
+        {
+          "market": "My Dress-Up Darling Season 2",
+          "probability": 0.14
+        },
+        {
+          "market": "Ranma1/2 Season2",
+          "probability": 0.08
+        },
+        {
+          "market": "Tie",
+          "probability": 0.03
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXANIMEBA-26",
+      "probabilities": [
+        {
+          "market": "DAN DA DAN Season 2",
+          "probability": 0.31
+        },
+        {
+          "market": "Gachiakuta",
+          "probability": 0.11
+        },
+        {
+          "market": "My Hero Academia FINAL SEASON",
+          "probability": 0.08
+        },
+        {
+          "market": "ONE PIECE",
+          "probability": 0.1
+        },
+        {
+          "market": "Solo Leveling Season 2 -Arise from the Shadow-",
+          "probability": 0.27
+        },
+        {
+          "market": "Takopi's Original Sin",
+          "probability": 0.09
+        },
+        {
+          "market": "Tie",
+          "probability": 0.04
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXANIMEBNS-26",
+      "probabilities": [
+        {
+          "market": "Clevatess",
+          "probability": 0.23
+        },
+        {
+          "market": "The Fragrant Flower Blooms With Dignity",
+          "probability": 0.14
+        },
+        {
+          "market": "Gachiakuta",
+          "probability": 0.24
+        },
+        {
+          "market": "SAKAMOTO DAYS",
+          "probability": 0.15
+        },
+        {
+          "market": "The Summer Hikaru Died",
+          "probability": 0.09
+        },
+        {
+          "market": "Takopi's Original Sin",
+          "probability": 0.12
+        },
+        {
+          "market": "Tie",
+          "probability": 0.03
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXGTA6ONTIME",
+      "probabilities": [
+        {
+          "market": "By May 26, 2026",
+          "probability": 0.98
+        },
+        {
+          "market": "After May 26, 2026 / not before cutoff",
+          "probability": 0.02
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXDAILYSHOW-26",
+      "probabilities": [
+        {
+          "market": "Ryan Gosling",
+          "probability": 0.03
+        },
+        {
+          "market": "Seth Meyers",
+          "probability": 0.18
+        },
+        {
+          "market": "Donald Trump",
+          "probability": 0.01
+        },
+        {
+          "market": "Pedro Pascal",
+          "probability": 0.34
+        },
+        {
+          "market": "Travis Kelce",
+          "probability": 0.07
+        },
+        {
+          "market": "Zendaya",
+          "probability": 0.37
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXEMMYLSERIES-26SEP14",
+      "probabilities": [
+        {
+          "market": "Beef",
+          "probability": 0.31
+        },
+        {
+          "market": "The Beast in Me",
+          "probability": 0.18
+        },
+        {
+          "market": "Love Story",
+          "probability": 0.16
+        },
+        {
+          "market": "All Her Fault",
+          "probability": 0.08
+        },
+        {
+          "market": "Half Man",
+          "probability": 0.07
+        },
+        {
+          "market": "Black Rabbit",
+          "probability": 0.06
+        },
+        {
+          "market": "Death by Lightning",
+          "probability": 0.05
+        },
+        {
+          "market": "Lord of the Flies",
+          "probability": 0.03
+        },
+        {
+          "market": "DTF St. Louis",
+          "probability": 0.02
+        },
+        {
+          "market": "Bait",
+          "probability": 0.01
+        },
+        {
+          "market": "Tie",
+          "probability": 0.03
+        }
+      ]
+    }
+  ]
+}
