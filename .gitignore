@@ -1,0 +1,2 @@
+# ignore files that we don't need
+*__pycache__/
