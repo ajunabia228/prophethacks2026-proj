@@ -35,22 +35,22 @@ def predict(event: dict) -> dict:
     outcomes_list = "\n".join(f"- {o}" for o in outcomes)
 
     prompt = f"""
-Event: {event['title']}
-Category: {event['category']}
-Close time: {event['close_time']}
-Description: {event.get('description', '')}
-Rules: {event.get('rules', '')}
+    Event: {event['title']}
+    Category: {event['category']}
+    Close time: {event['close_time']}
+    Description: {event.get('description', '')}
+    Rules: {event.get('rules', '')}
 
-Possible outcomes (assign a probability to each):
-{outcomes_list}
-"""
+    Possible outcomes (assign a probability to each):
+    {outcomes_list}
+    """
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b:free",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt}
-        ]
+        ],
     )
 
     text = response.choices[0].message.content.strip()
