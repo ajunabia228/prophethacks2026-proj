@@ -2,6 +2,10 @@
 
 A custom forecasting agent built for the Prophet Arena benchmark. The agent uses an LLM via OpenRouter to generate calibrated probability estimates for binary-outcome events, scored using Brier score.
 
+## Collaborators 👥
+
+Antonio Unabia, Daniel Danque, Emilio Calvo, Steve Nuevaorlanda
+
 ## Project Structure 🛠️
 
 prophethacks2026-proj/ <br>
@@ -9,8 +13,7 @@ prophethacks2026-proj/ <br>
 │   └── my_agent.py <br>
 └── data/ <br>
 ├── events.json <br>
-├── predictions.json <br>
-└── summary.json <br>
+└── predictions.json <br>
 
 ## Requirements ⚙️
 
@@ -75,7 +78,7 @@ prophet forecast predict --events data/events.json --local my_agent -o data/pred
 
 The agent sends each event to an LLM (via OpenRouter) along with all possible outcomes. The model returns a probability for every outcome in JSON format. The agent then extracts the probability for the YES outcome (always the first entry in the outcomes list) and returns it as `p_yes`.
 
-The placeholder model used is `openai/gpt-oss-120b:free`, which is available on OpenRouter's free tier.
+The placeholder model used during testing was `openai/gpt-oss-120b:free`, which is available on OpenRouter's free tier.
 
 ## Scoring 🎯
 
