@@ -15,7 +15,7 @@ For Render:
     1. Create a Render web service with the following settings:
     - Environment: Python 3
     - Build Command: `pip install -r requirements.txt`
-    - Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+    - Start Command: `cd src && uvicorn server:app --host 0.0.0.0 --port $PORT`
     2. Set the OPENROUTER_API_KEY environment variable in Render's dashboard.
 
 """
@@ -46,19 +46,16 @@ async def predict_endpoint(event: dict):
 async def health():
     return {"status": "healthy"}
 
+@app.head("/ping")
+async def ping_head():
+    return
 
 # Run the server with: uvicorn server:app --host
 def main() -> None:
     import uvicorn
-    
-    if(os.getenv("LOCAL_DEV")):
-        import logging
-        logging.warning("Running in local development mode with auto-reload enabled.")
-        port = int(os.getenv("LOCALHOST_PORT", "8000"))
-        uvicorn.run("server:app", host="0.0.0.0", port=port, reload=True)
-    else:
-        print("Running in production mode.")
-        # uvicorn.run("server:app", host="
+
+    port = int(os.getenv("LOCALHOST_PORT", "8000"))
+    uvicorn.run("server:app", host="0.0.0.0", port=port, reload=True)
 
 if __name__ == "__main__":
     main()
