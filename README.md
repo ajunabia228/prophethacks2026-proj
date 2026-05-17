@@ -19,7 +19,7 @@ prophethacks2026-proj/ <br>
 
 - Python 3.10+
 - An [OpenRouter](https://openrouter.ai) API key (free tier works)
-- The `ai-prophet` CLI installed from the [ai-prophet](https://github.com/ai-prophet) repository
+- The `ai-prophet` CLI installed from the [ai-prophet](https://github.com/ai-prophet/ai-prophet) repository
 
 ## Setup 🖥️
 
