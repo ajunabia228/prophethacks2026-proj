@@ -1,0 +1,626 @@
+{
+  "timestamp": "2026-05-17T19:02:45.771250Z",
+  "predictions": [
+    {
+      "market_ticker": "KXHOUSINGSTART-26MAY21",
+      "probabilities": [
+        {
+          "market": "Above 1.400M",
+          "probability": 0.3048
+        },
+        {
+          "market": "Above 1.425M",
+          "probability": 0.2416
+        },
+        {
+          "market": "Above 1.450M",
+          "probability": 0.1784
+        },
+        {
+          "market": "Above 1.475M",
+          "probability": 0.119
+        },
+        {
+          "market": "Above 1.500M",
+          "probability": 0.0781
+        },
+        {
+          "market": "Above 1.525M",
+          "probability": 0.0446
+        },
+        {
+          "market": "Above 1.550M",
+          "probability": 0.0223
+        },
+        {
+          "market": "Above 1.575M",
+          "probability": 0.0112
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXDEGDPQOQF-26MAY22",
+      "probabilities": [
+        {
+          "market": "Above -0.4%",
+          "probability": 0.01
+        },
+        {
+          "market": "Above -0.3%",
+          "probability": 0.01
+        },
+        {
+          "market": "Above -0.2%",
+          "probability": 0.01
+        },
+        {
+          "market": "Above -0.1%",
+          "probability": 0.02
+        },
+        {
+          "market": "Above -0.0%",
+          "probability": 0.03
+        },
+        {
+          "market": "Above 0.1%",
+          "probability": 0.08
+        },
+        {
+          "market": "Above 0.2%",
+          "probability": 0.17
+        },
+        {
+          "market": "Above 0.3%",
+          "probability": 0.33
+        },
+        {
+          "market": "Above 0.4%",
+          "probability": 0.15
+        },
+        {
+          "market": "Above 0.5%",
+          "probability": 0.08
+        },
+        {
+          "market": "Above 0.6%",
+          "probability": 0.04
+        },
+        {
+          "market": "Above 0.7%",
+          "probability": 0.02
+        },
+        {
+          "market": "Above 0.8%",
+          "probability": 0.02
+        },
+        {
+          "market": "Above 0.9%",
+          "probability": 0.02
+        },
+        {
+          "market": "Above 1.0%",
+          "probability": 0.01
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXECONSTATCPIYOY-26MAY",
+      "probabilities": [
+        {
+          "market": "Exactly 2.0%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.1%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.2%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.3%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.4%",
+          "probability": 0.0198
+        },
+        {
+          "market": "Exactly 2.5%",
+          "probability": 0.0396
+        },
+        {
+          "market": "Exactly 2.6%",
+          "probability": 0.099
+        },
+        {
+          "market": "Exactly 2.7%",
+          "probability": 0.198
+        },
+        {
+          "market": "Exactly 2.8%",
+          "probability": 0.2377
+        },
+        {
+          "market": "Exactly 2.9%",
+          "probability": 0.1683
+        },
+        {
+          "market": "Exactly 3.0%",
+          "probability": 0.099
+        },
+        {
+          "market": "Exactly 3.1%",
+          "probability": 0.0495
+        },
+        {
+          "market": "Exactly 3.2%",
+          "probability": 0.0198
+        },
+        {
+          "market": "Exactly 3.3%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 3.4%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 3.5%",
+          "probability": 0.0099
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXECONSTATCPICORE-26MAY",
+      "probabilities": [
+        {
+          "market": "Exactly -0.2%",
+          "probability": 0.01
+        },
+        {
+          "market": "Exactly -0.1%",
+          "probability": 0.01
+        },
+        {
+          "market": "Exactly 0.0%",
+          "probability": 0.02
+        },
+        {
+          "market": "Exactly 0.1%",
+          "probability": 0.08
+        },
+        {
+          "market": "Exactly 0.2%",
+          "probability": 0.2
+        },
+        {
+          "market": "Exactly 0.3%",
+          "probability": 0.28
+        },
+        {
+          "market": "Exactly 0.4%",
+          "probability": 0.25
+        },
+        {
+          "market": "Exactly 0.5%",
+          "probability": 0.15
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXCBDECISIONJAPAN-26JUN15",
+      "probabilities": [
+        {
+          "market": "Cut more than 25bps",
+          "probability": 0.01
+        },
+        {
+          "market": "Cut 25bps",
+          "probability": 0.01
+        },
+        {
+          "market": "Maintain current rate",
+          "probability": 0.2
+        },
+        {
+          "market": "Hike 25bps",
+          "probability": 0.76
+        },
+        {
+          "market": "Hike more than 25bps",
+          "probability": 0.02
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXCBDECISIONAUSTRALIA-26JUN16",
+      "probabilities": [
+        {
+          "market": "Cut more than 25bps",
+          "probability": 0.01
+        },
+        {
+          "market": "Cut 1-25bps",
+          "probability": 0.01
+        },
+        {
+          "market": "Maintain current rate",
+          "probability": 0.78
+        },
+        {
+          "market": "Hike 1-25bps",
+          "probability": 0.19
+        },
+        {
+          "market": "Hike more than 25bps",
+          "probability": 0.01
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXESGDPQOQF-26JUN25",
+      "probabilities": [
+        {
+          "market": "Above -0.1%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Above -0.0%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Above 0.1%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Above 0.2%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Above 0.3%",
+          "probability": 0.0198
+        },
+        {
+          "market": "Above 0.4%",
+          "probability": 0.0297
+        },
+        {
+          "market": "Above 0.5%",
+          "probability": 0.0792
+        },
+        {
+          "market": "Above 0.6%",
+          "probability": 0.2773
+        },
+        {
+          "market": "Above 0.7%",
+          "probability": 0.2178
+        },
+        {
+          "market": "Above 0.8%",
+          "probability": 0.1386
+        },
+        {
+          "market": "Above 0.9%",
+          "probability": 0.0792
+        },
+        {
+          "market": "Above 1.0%",
+          "probability": 0.0495
+        },
+        {
+          "market": "Above 1.1%",
+          "probability": 0.0297
+        },
+        {
+          "market": "Above 1.2%",
+          "probability": 0.0198
+        },
+        {
+          "market": "Above 1.3%",
+          "probability": 0.0198
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXUSTYLD-10Y26JUN30",
+      "probabilities": [
+        {
+          "market": "Above 3.60%",
+          "probability": 0.108
+        },
+        {
+          "market": "Above 3.70%",
+          "probability": 0.1058
+        },
+        {
+          "market": "Above 3.80%",
+          "probability": 0.1036
+        },
+        {
+          "market": "Above 3.90%",
+          "probability": 0.1003
+        },
+        {
+          "market": "Above 4.00%",
+          "probability": 0.096
+        },
+        {
+          "market": "Above 4.10%",
+          "probability": 0.0894
+        },
+        {
+          "market": "Above 4.20%",
+          "probability": 0.0829
+        },
+        {
+          "market": "Above 4.30%",
+          "probability": 0.0742
+        },
+        {
+          "market": "Above 4.40%",
+          "probability": 0.0643
+        },
+        {
+          "market": "Above 4.50%",
+          "probability": 0.0534
+        },
+        {
+          "market": "Above 4.60%",
+          "probability": 0.0425
+        },
+        {
+          "market": "Above 4.70%",
+          "probability": 0.0327
+        },
+        {
+          "market": "Above 4.80%",
+          "probability": 0.0229
+        },
+        {
+          "market": "Above 4.90%",
+          "probability": 0.0153
+        },
+        {
+          "market": "Above 5.00%",
+          "probability": 0.0087
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXECONSTATCORECPIYOY-26JUN",
+      "probabilities": [
+        {
+          "market": "Exactly 2.2%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.3%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 2.4%",
+          "probability": 0.0197
+        },
+        {
+          "market": "Exactly 2.5%",
+          "probability": 0.0296
+        },
+        {
+          "market": "Exactly 2.6%",
+          "probability": 0.0591
+        },
+        {
+          "market": "Exactly 2.7%",
+          "probability": 0.1182
+        },
+        {
+          "market": "Exactly 2.8%",
+          "probability": 0.2363
+        },
+        {
+          "market": "Exactly 2.9%",
+          "probability": 0.197
+        },
+        {
+          "market": "Exactly 3.0%",
+          "probability": 0.1379
+        },
+        {
+          "market": "Exactly 3.1%",
+          "probability": 0.0788
+        },
+        {
+          "market": "Exactly 3.2%",
+          "probability": 0.0394
+        },
+        {
+          "market": "Exactly 3.3%",
+          "probability": 0.0197
+        },
+        {
+          "market": "Exactly 3.4%",
+          "probability": 0.0148
+        },
+        {
+          "market": "Exactly 3.5%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 3.6%",
+          "probability": 0.0099
+        },
+        {
+          "market": "Exactly 3.7%",
+          "probability": 0.0099
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXECONSTATCPI-26JUN",
+      "probabilities": [
+        {
+          "market": "Exactly -0.2%",
+          "probability": 0.02
+        },
+        {
+          "market": "Exactly -0.1%",
+          "probability": 0.03
+        },
+        {
+          "market": "Exactly 0.0%",
+          "probability": 0.06
+        },
+        {
+          "market": "Exactly 0.1%",
+          "probability": 0.12
+        },
+        {
+          "market": "Exactly 0.2%",
+          "probability": 0.24
+        },
+        {
+          "market": "Exactly 0.3%",
+          "probability": 0.28
+        },
+        {
+          "market": "Exactly 0.4%",
+          "probability": 0.16
+        },
+        {
+          "market": "Exactly 0.5%",
+          "probability": 0.07
+        },
+        {
+          "market": "Exactly 0.6%",
+          "probability": 0.02
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXCBDECISIONCANADA-26JUL",
+      "probabilities": [
+        {
+          "market": "Cut >25bps",
+          "probability": 0.05
+        },
+        {
+          "market": "Cut 25bps",
+          "probability": 0.12
+        },
+        {
+          "market": "Maintains rate",
+          "probability": 0.75
+        },
+        {
+          "market": "Hike 25bps",
+          "probability": 0.05
+        },
+        {
+          "market": "Hike >25bps",
+          "probability": 0.03
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXFED-26SEP",
+      "probabilities": [
+        {
+          "market": "Above 2.75%",
+          "probability": 0.2473
+        },
+        {
+          "market": "Above 3.00%",
+          "probability": 0.2371
+        },
+        {
+          "market": "Above 3.25%",
+          "probability": 0.2165
+        },
+        {
+          "market": "Above 3.50%",
+          "probability": 0.1753
+        },
+        {
+          "market": "Above 3.75%",
+          "probability": 0.0799
+        },
+        {
+          "market": "Above 4.00%",
+          "probability": 0.0258
+        },
+        {
+          "market": "Above 4.25%",
+          "probability": 0.0077
+        },
+        {
+          "market": "Above 4.50%",
+          "probability": 0.0026
+        },
+        {
+          "market": "Above 4.75%",
+          "probability": 0.0026
+        },
+        {
+          "market": "Above 5.00%",
+          "probability": 0.0026
+        },
+        {
+          "market": "Above 5.25%",
+          "probability": 0.0026
+        }
+      ]
+    },
+    {
+      "market_ticker": "KXAAAGASED-26NOV03",
+      "probabilities": [
+        {
+          "market": "Above 2.50",
+          "probability": 0.1968
+        },
+        {
+          "market": "Above 2.75",
+          "probability": 0.1948
+        },
+        {
+          "market": "Above 3.00",
+          "probability": 0.1849
+        },
+        {
+          "market": "Above 3.25",
+          "probability": 0.159
+        },
+        {
+          "market": "Above 3.50",
+          "probability": 0.1173
+        },
+        {
+          "market": "Above 3.75",
+          "probability": 0.0716
+        },
+        {
+          "market": "Above 4.00",
+          "probability": 0.0398
+        },
+        {
+          "market": "Above 4.25",
+          "probability": 0.0199
+        },
+        {
+          "market": "Above 4.50",
+          "probability": 0.0099
+        },
+        {
+          "market": "Above 4.75",
+          "probability": 0.004
+        },
+        {
+          "market": "Above 5.00",
+          "probability": 0.002
+        }
+      ]
+    }
+  ]
+}

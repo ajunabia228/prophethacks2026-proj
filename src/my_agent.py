@@ -269,7 +269,8 @@ Possible outcomes (assign a probability to each):
 
     try:
         response = client.chat.completions.create(
-            model="perplexity/sonar-pro-search",
+            #model="perplexity/sonar",
+            model="perplexity/sonar",
             max_tokens=1000,
             messages=[
                 {"role": "system", "content": system_prompt},

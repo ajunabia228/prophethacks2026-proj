@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-05-17T21:26:09.915018+00:00",
+  "predictions": [
+    {
+      "market_ticker": "KXITFWMATCH-26MAY12NAJEBS",
+      "probabilities": [
+        {
+          "market": "Kaja Najzer",
+          "probability": 0.18
+        },
+        {
+          "market": "Anna Lena Ebster",
+          "probability": 0.82
+        }
+      ]
+    }
+  ]
+}
