@@ -1,5 +1,6 @@
 import os
 import json
+import time
 import requests
 from openai import OpenAI
 
@@ -10,6 +11,7 @@ client = OpenAI(
 
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "predictions_cache.json")
+CACHE_TTL_HOURS = 24  # Refresh predictions older than this
 
 SPORT_MAP = {
     "KXNBA": "basketball_nba",
@@ -19,27 +21,87 @@ SPORT_MAP = {
     "KXFACUP": "soccer_fa_cup",
     "KXBUNDESLIGA": "soccer_germany_bundesliga",
     "KXEUROLEAGUE": "basketball_euroleague",
-    "KXATP": "tennis_atp_french_open",
+    "KXATP": "tennis_atp",
+    "KXWTA": "tennis_wta",
+    "KXITF": "tennis_itf",
+    "KXMLS": "soccer_usa_mls",
+    "KXLALIGA": "soccer_spain_la_liga",
+    "KXSERIEA": "soccer_italy_serie_a",
+    "KXLIGUE1": "soccer_france_ligue_one",
+    "KXCHAMPIONS": "soccer_uefa_champs_league",
+    "KXNFL": "americanfootball_nfl",
+    "KXNCAA": "americanfootball_ncaaf",
+    "KXNBA2": "basketball_nba",
+    "KXWNBA": "basketball_wnba",
+    "KXPGA": "golf_pga_championship_winner",
+    "KXMASTERS": "golf_masters_tournament_winner",
+    "KXUFC": "mma_mixed_martial_arts",
+    "KXBOXING": "boxing_boxing",
+    "KXCRICKET": "cricket_icc_world_cup_2027_winner",
+    "KXNASCAR": "motorsport_constructor_championship_winner",
+    "KXF1": "motorsport_constructor_championship_winner",
+    "KXPREMDARTS": None,
+    "KXDARTS": None,
 }
 
 CATEGORY_HINTS = {
     "Sports": """
 - If betting odds are provided, use implied probabilities as your primary anchor.
 - Adjust slightly for recent form, injuries, home advantage, or playoff context.
-- For championship/outright markets, only teams still in contention should have meaningful probability.
+- For championship/outright markets, only teams or players still in contention should have meaningful probability.
+- For head-to-head matchups, consider current form, head-to-head record, and venue.
 """,
     "Economics": """
 - Search for the most recent actual value and analyst consensus forecast for this metric.
-- Consider the trend over the last 3 months and any relevant macro context.
+- Consider the trend over the last 3 months and any relevant macro context (inflation, Fed policy, trade conditions).
 - For range-bucket questions, concentrate probability mass around the consensus forecast.
 - Use a roughly normal distribution — outcomes further from consensus get exponentially less probability.
 - Do not spread probability evenly; most mass should be on 2-4 adjacent buckets.
+- For central bank decisions, check current market pricing (OIS swaps, futures) for rate expectations.
 """,
     "Entertainment": """
 - Search for current betting odds, fan polls, prediction markets, or critic consensus.
-- For award shows, consider who the frontrunner is based on prior wins this season.
+- For award shows, consider who the frontrunner is based on prior wins this season and critics' picks.
 - For release/timing questions, search for any official announcements or credible rumors.
+- For chart/streaming questions, consider recent momentum and historical baselines.
 - Concentrate probability on 1-3 frontrunners; don't spread evenly.
+""",
+    "Politics": """
+- Search for the most recent polling averages, prediction market prices, and expert forecasts.
+- Consider structural factors: incumbency advantage, economic conditions, historical base rates.
+- For electoral questions, weight recent polls heavily but account for historical polling error.
+- Do not anchor too heavily on a single poll — use aggregates where possible.
+- Concentrate probability on realistic outcomes; fringe outcomes get 0.01-0.03.
+""",
+    "Elections": """
+- Search for the most recent polling averages, prediction market prices, and expert forecasts.
+- Consider structural factors: incumbency advantage, economic conditions, historical base rates.
+- For electoral questions, weight recent polls heavily but account for historical polling error.
+- Do not anchor too heavily on a single poll — use aggregates where possible.
+- Concentrate probability on realistic outcomes; fringe outcomes get 0.01-0.03.
+""",
+    "Science": """
+- Search for the current state of the research or event in question.
+- Consider historical base rates for similar events (e.g. rocket launches, clinical trial success rates).
+- For binary outcomes, anchor on expert consensus and recent developments.
+- Be conservative — scientific and technical outcomes are often uncertain.
+""",
+    "Technology": """
+- Search for the latest news, official announcements, and analyst expectations.
+- For product release questions, check official roadmaps and credible leaks.
+- For market/adoption questions, consider current trends and historical growth rates.
+- Weight official sources heavily over speculation.
+""",
+    "Finance": """
+- Search for current market pricing, analyst consensus, and recent trends.
+- For asset price questions, consider implied volatility and futures pricing.
+- Use a distribution that reflects genuine uncertainty — financial outcomes are hard to predict.
+- Concentrate mass around the current market consensus with fat tails.
+""",
+    "Weather": """
+- Search for the latest meteorological forecasts from official sources (NOAA, ECMWF).
+- Weight the most recent forecast model runs heavily.
+- For extreme event questions, use historical base rates as a prior.
 """,
 }
 
@@ -78,6 +140,12 @@ def load_cache() -> dict:
 def save_cache(cache: dict):
     with open(CACHE_FILE, "w") as f:
         json.dump(cache, f, indent=2)
+
+
+def is_cache_fresh(entry: dict) -> bool:
+    cached_at = entry.get("cached_at", 0)
+    age_hours = (time.time() - cached_at) / 3600
+    return age_hours < CACHE_TTL_HOURS
 
 
 def get_sport_key(event_ticker: str) -> str | None:
@@ -120,22 +188,50 @@ def fetch_odds(sport_key: str) -> str:
         return ""
 
 
+def research_event(event: dict) -> str:
+    """Two-step research for unknown or complex event types."""
+    try:
+        research_prompt = f"""Research this forecasting question and provide the most relevant current information:
+
+Title: {event['title']}
+Description: {event.get('description', '')}
+Close time: {event['close_time']}
+
+Provide:
+1. Current status or most recent relevant data point
+2. Expert consensus or market expectations if available
+3. Key factors that would influence the outcome
+4. Any recent developments that are relevant
+
+Be concise and factual. Do not assign probabilities."""
+
+        response = client.chat.completions.create(
+            model="perplexity/sonar",
+            max_tokens=500,
+            messages=[{"role": "user", "content": research_prompt}],
+        )
+        return response.choices[0].message.content.strip()
+    except Exception:
+        return ""
+
+
 def predict(event: dict) -> dict:
     ticker = event.get("market_ticker", "")
 
-    # Return cached result if available
+    # Return cached result if fresh
     cache = load_cache()
-    if ticker in cache:
-        return cache[ticker]
+    if ticker in cache and is_cache_fresh(cache[ticker]):
+        return {"probabilities": cache[ticker]["probabilities"]}
 
     outcomes = event.get("outcomes") or []
     outcomes_list = "\n".join(f"- {o}" for o in outcomes)
     category = event.get("category", "")
 
     # Build category-aware system prompt
-    category_hint = CATEGORY_HINTS.get(
-        category, "- Use all available context to make calibrated estimates."
-    )
+    category_hint = CATEGORY_HINTS.get(category)
+    known_category = category_hint is not None
+    if not category_hint:
+        category_hint = "- Use all available context and current research to make calibrated estimates.\n- Concentrate probability mass on the most likely outcomes based on evidence."
     system_prompt = BASE_SYSTEM_PROMPT.format(category_hint=category_hint)
 
     # Detect binary yes/no
@@ -150,13 +246,20 @@ def predict(event: dict) -> dict:
             if odds_data:
                 odds_context = f"\nCURRENT BETTING ODDS (use implied probabilities as anchor):\n{odds_data}\n"
 
+    # Two-step research for unknown categories or complex events
+    research_context = ""
+    if not known_category or (known_category and not odds_context and category != "Sports"):
+        research = research_event(event)
+        if research:
+            research_context = f"\nCURRENT RESEARCH:\n{research}\n"
+
     prompt = f"""
 Event: {event['title']}
 Category: {category}
 Close time: {event['close_time']}
 Description: {event.get('description', '')}
 Rules: {event.get('rules', '')}
-{odds_context}
+{odds_context}{research_context}
 Possible outcomes (assign a probability to each):
 {outcomes_list}
 """
@@ -199,10 +302,11 @@ Possible outcomes (assign a probability to each):
         largest = max(probs, key=lambda x: x["probability"])
         largest["probability"] = round(largest["probability"] + diff, 4)
 
-    result = {"probabilities": probs}
-
-    # Cache and return
-    cache[ticker] = result
+    # Cache with timestamp
+    cache[ticker] = {
+        "probabilities": probs,
+        "cached_at": time.time(),
+    }
     save_cache(cache)
 
-    return result
+    return {"probabilities": probs}
