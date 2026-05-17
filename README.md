@@ -82,7 +82,7 @@ The placeholder model used during testing was `openai/gpt-oss-120b:free`, which 
 
 ## Scoring 🎯
 
-Predictions are scored using Brier score: `(probability - actual)²` averaged across all matched predictions.
+Predictions are scored using Brier score: `(probability - actual)²` averaged across all of the matched predictions.
 
 - **0.0** — perfect score
 - **0.25** — equivalent to always predicting 0.5
