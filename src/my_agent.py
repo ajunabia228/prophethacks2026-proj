@@ -17,6 +17,7 @@ CALIBRATION GUIDELINES:
 - Probabilities do NOT need to sum to 1 (each outcome is scored independently as YES/NO).
 - Extremes (p < 0.05 or p > 0.95) require very strong evidence.
 - For multi-outcome events (e.g. league winners), most outcomes should have low probability.
+- Ensure all probabilities sum to 1
 
 Respond with ONLY valid JSON in this exact format, no other text:
 {
@@ -75,10 +76,5 @@ Possible outcomes (assign a probability to each):
     p_yes = max(0.01, min(0.99, float(p_yes)))
 
     return {
-    "market": yes_outcome,
-    "p_yes": p_yes,
-    "rationale": " | ".join(
-        f"{item['market']}: {item['probability']}"
-        for item in data["probabilities"]
-    )
+    "probabilites": data["probabilities"]
 }
