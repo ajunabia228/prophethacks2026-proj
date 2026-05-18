@@ -4,7 +4,7 @@ It combines Perplexity Sonar's real-time web search with live sports betting odd
 to generate calibrated probability estimates across sports, economics, and entertainment events. 
 Rather than relying solely on training data, the agent actively researches each event before assigning 
 probabilities to every possible outcome, producing predictions that are scored using Brier score, 
-where lower is better and 0.0 is perfect.
+where lower is better and 0.0 is a perfect score.
 
 <div align="center">
   <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/678/530/datas/gallery.jpg" alt="TrueOdds.AI Preview" />
@@ -64,10 +64,10 @@ pip install -r requirements.txt
 ### 4. Configure environment variables 🔡
 Create a `.env` file in the project root with the following:
 ```
-OPENROUTER_API_KEY_1=sk-or-...
-OPENROUTER_API_KEY_2=sk-or-...
-OPENROUTER_API_KEY_3=sk-or-...
-ODDS_API_KEY=...
+ODDS_API_KEY_1=sk-or-...
+ODDS_API_KEY_2=sk-or-...
+ODDS_API_KEY_3=sk-or-...
+OPENROUTER_API_KEY=...
 PA_SERVER_URL=https://api.aiprophet.dev
 ```
 
@@ -112,7 +112,7 @@ prophet forecast predict --events data/events.json --agent-url http://localhost:
 ## How It Works 🕵🏻
 The agent sends each event to Perplexity Sonar Pro via OpenRouter along with all possible outcomes. The model uses built-in real-time web search to factor in current standings, recent form, and live odds before returning a probability for every outcome in JSON format.
 
-For sports events, the agent additionally queries The Odds API to retrieve current betting odds and uses implied probabilities as an anchor for its estimates. For non-sports events, a two-step research call is made first to gather current context before the final prediction is generated.
+For sports events, the agent additionally queries The Odds API to retrieve current betting odds and uses implied probabilities as an anchor for its estimates. For non-sports events, a two-step research call is made first to gather the current context before the final prediction is generated.
 
 The agent supports multiple API keys with automatic fallback: if one key hits its credit limit or rate limit, it seamlessly switches to the next available key!
 
