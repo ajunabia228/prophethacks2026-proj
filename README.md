@@ -35,6 +35,20 @@ prophethacks2026-proj/
 └── README.md
 ```
 
+## Tech Stack 🧰
+
+| Layer | Technology |
+|---|---|
+| Language | Python 3.10+ |
+| API Framework | FastAPI |
+| Deployment | Render |
+| LLM Provider | OpenRouter |
+| AI Model | Perplexity Sonar |
+| Sports Odds Data | The Odds API |
+| CLI & Scoring | ai-prophet-core |
+| Package Management | pip |
+| Version Control | Git & GitHub |
+
 ## Requirements ⚙️
 - Python 3.10+
 - An [OpenRouter](https://openrouter.ai) API key
