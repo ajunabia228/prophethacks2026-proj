@@ -10,7 +10,7 @@ where lower is better and 0.0 is a perfect score.
   <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/678/530/datas/gallery.jpg" alt="TrueOdds.AI Preview" />
 </div>
 
-This program was made for ProphetHacks 2026! 🎉 <br>
+This program was made for ProphetHacks 2026! 🎉 You can check it out [here](https://devpost.com/software/some-llm-project). <br>
 🔮 ProphetHacks 2026 Website: https://www.prophethacks.com/
 
 ## Collaborators 👥
